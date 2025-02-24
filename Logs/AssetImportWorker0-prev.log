@@ -138,7 +138,7 @@ Domain Reload Profiling: 5626ms
 			ProcessInitializeOnLoadAttributes (1653ms)
 			ProcessInitializeOnLoadMethodAttributes (438ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
