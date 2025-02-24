@@ -1,0 +1,434 @@
+Unity Editor version:    6000.0.32f1 (b2e806cf271c)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.7 (Build 23H124)
+Darwin version:          23.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/quyenv/Documents/GitHub/Cooking-Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51394
+-job-worker-count
+1
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /Users/quyenv/Documents/GitHub/Cooking-Game
+/Users/quyenv/Documents/GitHub/Cooking-Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704681451008]  Target information:
+
+Player connection [140704681451008]  * "[IP] 10.36.147.190 [Port] 0 [Flags] 2 [Guid] 3196223224 [EditorId] 3196223224 [Version] 1048832 [Id] OSXEditor(0,DN0a2493be.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704681451008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704681451008] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 45.31 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 74.40 ms.
+Initialize engine version: 6000.0.32f1 (b2e806cf271c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/quyenv/Documents/GitHub/Cooking-Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Color LCD preferred device: Intel(R) UHD Graphics 617 (low power)
+Metal devices available: 1
+0: Intel(R) UHD Graphics 617 (low power)
+Using device Intel(R) UHD Graphics 617 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 617
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56537
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.009572 seconds.
+- Loaded All Assemblies, in  2.976 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1134 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.910 seconds
+Domain Reload Profiling: 11925ms
+	BeginReloadAssembly (1397ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (286ms)
+	RebuildNativeTypeToScriptingClass (100ms)
+	initialDomainReloadingComplete (225ms)
+	LoadAllAssembliesAndSetupDomain (967ms)
+		LoadAssemblies (1384ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (953ms)
+			TypeCache.Refresh (945ms)
+				TypeCache.ScanAssembly (873ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (8950ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (8447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1885ms)
+			SetLoadedEditorAssemblies (33ms)
+			BeforeProcessingInitializeOnLoad (743ms)
+			ProcessInitializeOnLoadAttributes (3681ms)
+			ProcessInitializeOnLoadMethodAttributes (2104ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.498 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 121.87 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 11.690 seconds
+Domain Reload Profiling: 21189ms
+	BeginReloadAssembly (1951ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (73ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (395ms)
+	RebuildCommonClasses (465ms)
+	RebuildNativeTypeToScriptingClass (140ms)
+	initialDomainReloadingComplete (359ms)
+	LoadAllAssembliesAndSetupDomain (6583ms)
+		LoadAssemblies (4228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3461ms)
+			TypeCache.Refresh (2137ms)
+				TypeCache.ScanAssembly (1866ms)
+			BuildScriptInfoCaches (1073ms)
+			ResolveRequiredComponents (212ms)
+	FinalizeReload (11692ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (8766ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (95ms)
+			SetLoadedEditorAssemblies (44ms)
+			BeforeProcessingInitializeOnLoad (1737ms)
+			ProcessInitializeOnLoadAttributes (4961ms)
+			ProcessInitializeOnLoadMethodAttributes (1913ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (7ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (51ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.99 seconds
+Refreshing native plugins compatible for Editor in 135.53 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 1.37 ms.
+Unloading 214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6844 unused Assets / (2.3 MB). Loaded Objects now: 7528.
+Memory consumption went from 156.8 MB to 154.5 MB.
+Total: 102.379820 ms (FindLiveObjects: 21.343057 ms CreateObjectMapping: 3.493790 ms MarkObjects: 39.536526 ms  DeleteObjects: 38.003744 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50413.476853 seconds.
+  path: Assets/food models
+  artifactKey: Guid(9c35b21ac3d5441e59eead5f1cee0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models using Guid(9c35b21ac3d5441e59eead5f1cee0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23fb21ac9e8da0ac263d561a259d990e') in 0.05273027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.080 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 26.03 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  7.701 seconds
+Domain Reload Profiling: 16799ms
+	BeginReloadAssembly (2852ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (177ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (1160ms)
+	RebuildCommonClasses (599ms)
+	RebuildNativeTypeToScriptingClass (312ms)
+	initialDomainReloadingComplete (346ms)
+	LoadAllAssembliesAndSetupDomain (4987ms)
+		LoadAssemblies (3929ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1993ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (41ms)
+			BuildScriptInfoCaches (1715ms)
+			ResolveRequiredComponents (88ms)
+	FinalizeReload (7703ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6243ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (28ms)
+			BeforeProcessingInitializeOnLoad (909ms)
+			ProcessInitializeOnLoadAttributes (4358ms)
+			ProcessInitializeOnLoadMethodAttributes (886ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (53ms)
+Refreshing native plugins compatible for Editor in 27.80 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 1.04 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7108 unused Assets / (6.4 MB). Loaded Objects now: 7803.
+Memory consumption went from 215.1 MB to 208.7 MB.
+Total: 62.203102 ms (FindLiveObjects: 1.881333 ms CreateObjectMapping: 2.698949 ms MarkObjects: 45.560483 ms  DeleteObjects: 12.059738 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 319.537673 seconds.
+  path: Assets/food models/Cheeseburger.glb
+  artifactKey: Guid(98ac0e36f2cee448abb7b43e0e177fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/Cheeseburger.glb using Guid(98ac0e36f2cee448abb7b43e0e177fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77da0d4a3d76134abf36e412fe653a08') in 47.038073932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.095152 seconds.
+  path: Assets/food models/completed-burger.glb
+  artifactKey: Guid(98ac0e36f2cee448abb7b43e0e177fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/completed-burger.glb using Guid(98ac0e36f2cee448abb7b43e0e177fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a00eb16c442864b6bf934a23d5008cc') in 0.511545158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 732.152079 seconds.
+  path: Assets/food models/Frying Pan.glb
+  artifactKey: Guid(f727784827f1546fb81133d47ff47589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/Frying Pan.glb using Guid(f727784827f1546fb81133d47ff47589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d32e96befa139831bfdff49431d39c6') in 1.041741835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.703316 seconds.
+  path: Assets/food models/Cutting Board.glb
+  artifactKey: Guid(372aac567cb5a427bbe0cfdf4daaee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/Cutting Board.glb using Guid(372aac567cb5a427bbe0cfdf4daaee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e79649d1b10b96acd6e845e52e5286d7') in 0.810263728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.516128 seconds.
+  path: Assets/food models/Food Burger.glb
+  artifactKey: Guid(4f7a2b0d4cae64b97ad3d40fa3b70a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/Food Burger.glb using Guid(4f7a2b0d4cae64b97ad3d40fa3b70a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '510929bded5df7453cf6423a782426eb') in 0.588356547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.310049 seconds.
+  path: Assets/food models/Chef knife.glb
+  artifactKey: Guid(e37a037c7aaac403abf2a66cf886c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/Chef knife.glb using Guid(e37a037c7aaac403abf2a66cf886c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1d29f0c7a5f1d6ec84d463c7c831c34') in 0.600777807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.699997 seconds.
+  path: Assets/food models/Lettuce cut.glb
+  artifactKey: Guid(fc91d48085a8c4c8eb98a35b4ac409fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/Lettuce cut.glb using Guid(fc91d48085a8c4c8eb98a35b4ac409fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cc954b8925cdd8937056ab1f59969e2') in 0.490756883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.748752 seconds.
+  path: Assets/food models/Salad Bowl.glb
+  artifactKey: Guid(c931d2a4b4f1e4aee92f71a78450c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/Salad Bowl.glb using Guid(c931d2a4b4f1e4aee92f71a78450c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcf8a997944422f61e8f07ca4a506f53') in 0.555333505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.302250 seconds.
+  path: Assets/food models/Cabbage.glb
+  artifactKey: Guid(b0a1811970c6d468ebd88ca83b52b66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/Cabbage.glb using Guid(b0a1811970c6d468ebd88ca83b52b66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6035e457eceeba72202280934eec0e82') in 0.250704418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.327431 seconds.
+  path: Assets/food models/burger bun bottom.glb
+  artifactKey: Guid(a04d7cf585c9f4a7eb84566801e971d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/burger bun bottom.glb using Guid(a04d7cf585c9f4a7eb84566801e971d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f098f72859784c19fb0c6be8e8873b') in 0.400993985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.387321 seconds.
+  path: Assets/food models/Burger bun top.glb
+  artifactKey: Guid(2bde67c766f224bfd8019d3484a76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/Burger bun top.glb using Guid(2bde67c766f224bfd8019d3484a76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0f1386a04287e3cfc6c14695dfa175c') in 0.621493574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.659326 seconds.
+  path: Assets/food models/bottom bun.glb
+  artifactKey: Guid(a04d7cf585c9f4a7eb84566801e971d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/bottom bun.glb using Guid(a04d7cf585c9f4a7eb84566801e971d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2565d68e24aa1f6ce8ca74d3e339a56c') in 0.479358416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.217968 seconds.
+  path: Assets/food models/top bun.glb
+  artifactKey: Guid(2bde67c766f224bfd8019d3484a76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/top bun.glb using Guid(2bde67c766f224bfd8019d3484a76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1021f683e1ec169ddd1fcc88a10956b7') in 0.295448112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.496397 seconds.
+  path: Assets/food models/kniife.glb
+  artifactKey: Guid(e37a037c7aaac403abf2a66cf886c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/kniife.glb using Guid(e37a037c7aaac403abf2a66cf886c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e574283f46401601105919b16100014d') in 0.517524519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.154003 seconds.
+  path: Assets/food models/raw lettuce.glb
+  artifactKey: Guid(b0a1811970c6d468ebd88ca83b52b66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/raw lettuce.glb using Guid(b0a1811970c6d468ebd88ca83b52b66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '816915dd38cabbc0c62f04dc0e8cacb7') in 0.317215754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.941615 seconds.
+  path: Assets/food models/cut lettuce.glb
+  artifactKey: Guid(fc91d48085a8c4c8eb98a35b4ac409fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/cut lettuce.glb using Guid(fc91d48085a8c4c8eb98a35b4ac409fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb8bd13c8374ee50c10487e5a13194e0') in 0.299004175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.501413 seconds.
+  path: Assets/food models/completed salad.glb
+  artifactKey: Guid(c931d2a4b4f1e4aee92f71a78450c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/completed salad.glb using Guid(c931d2a4b4f1e4aee92f71a78450c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3630037c427db1d54a18889efbd7670f') in 0.447455716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.885308 seconds.
+  path: Assets/food models/frying pan.glb
+  artifactKey: Guid(f727784827f1546fb81133d47ff47589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/frying pan.glb using Guid(f727784827f1546fb81133d47ff47589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9bb08a4ec3cb95aa4942f2334df7d52') in 0.313363718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.572634 seconds.
+  path: Assets/food models/patty.glb
+  artifactKey: Guid(4f7a2b0d4cae64b97ad3d40fa3b70a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/patty.glb using Guid(4f7a2b0d4cae64b97ad3d40fa3b70a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2631d26a18f874d6cd1f08664cfdfdd4') in 0.304823104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.355508 seconds.
+  path: Assets/food models/cutting board.glb
+  artifactKey: Guid(372aac567cb5a427bbe0cfdf4daaee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food models/cutting board.glb using Guid(372aac567cb5a427bbe0cfdf4daaee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b98c2eb32d9a34e7e7b0c3daca2ee7c9') in 0.279471656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
