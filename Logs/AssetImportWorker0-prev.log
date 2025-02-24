@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50997
+53150
 -job-worker-count
 1
 -background-job-worker-count
@@ -66,12 +66,12 @@ Successfully changed project path to: /Users/quyenv/Documents/GitHub/Cooking-Gam
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704713813504]  Target information:
+Player connection [140704687861248]  Target information:
 
-Player connection [140704713813504]  * "[IP] 10.37.195.28 [Port] 0 [Flags] 2 [Guid] 3786668367 [EditorId] 3786668367 [Version] 1048832 [Id] OSXEditor(0,DN0a25c31c.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [140704687861248]  * "[IP] 10.37.198.237 [Port] 0 [Flags] 2 [Guid] 4261363778 [EditorId] 4261363778 [Version] 1048832 [Id] OSXEditor(0,DN0a25c6ed.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [140704713813504] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140704713813504] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704687861248] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704687861248] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -82,8 +82,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 76.50 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 10.33 ms.
+Refreshing native plugins compatible for Editor in 174.70 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 157.49 ms.
 Initialize engine version: 6000.0.32f1 (b2e806cf271c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/quyenv/Documents/GitHub/Cooking-Game/Assets
@@ -97,47 +97,47 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56101
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.036845 seconds.
-- Loaded All Assemblies, in  1.504 seconds
+Registered in 0.014730 seconds.
+- Loaded All Assemblies, in  5.722 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 481 ms
+Android Extension - Scanning For ADB Devices 1009 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.119 seconds
-Domain Reload Profiling: 5626ms
-	BeginReloadAssembly (372ms)
+- Finished resetting the current domain, in  7.983 seconds
+Domain Reload Profiling: 13710ms
+	BeginReloadAssembly (1469ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (106ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (153ms)
-	LoadAllAssembliesAndSetupDomain (842ms)
-		LoadAssemblies (375ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (534ms)
+	RebuildNativeTypeToScriptingClass (180ms)
+	initialDomainReloadingComplete (525ms)
+	LoadAllAssembliesAndSetupDomain (3012ms)
+		LoadAssemblies (1475ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (831ms)
-			TypeCache.Refresh (826ms)
-				TypeCache.ScanAssembly (778ms)
+		AnalyzeDomain (2980ms)
+			TypeCache.Refresh (2943ms)
+				TypeCache.ScanAssembly (2595ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (4123ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (7989ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3855ms)
+		SetupLoadedEditorAssemblies (6737ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (924ms)
-			SetLoadedEditorAssemblies (22ms)
-			BeforeProcessingInitializeOnLoad (816ms)
-			ProcessInitializeOnLoadAttributes (1653ms)
-			ProcessInitializeOnLoadMethodAttributes (438ms)
-			AfterProcessingInitializeOnLoad (0ms)
+			InitializePlatformSupportModulesInManaged (2372ms)
+			SetLoadedEditorAssemblies (108ms)
+			BeforeProcessingInitializeOnLoad (1295ms)
+			ProcessInitializeOnLoadAttributes (2109ms)
+			ProcessInitializeOnLoadMethodAttributes (851ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -145,10 +145,10 @@ Domain Reload Profiling: 5626ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.740 seconds
+- Loaded All Assemblies, in 18.396 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 56.16 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 68.96 ms, found 9 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -162,53 +162,53 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  9.290 seconds
-Domain Reload Profiling: 15041ms
-	BeginReloadAssembly (1084ms)
+- Finished resetting the current domain, in 14.074 seconds
+Domain Reload Profiling: 32460ms
+	BeginReloadAssembly (2676ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (75ms)
+		DisableScriptedObjects (135ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (321ms)
-	RebuildCommonClasses (288ms)
-	RebuildNativeTypeToScriptingClass (72ms)
-	initialDomainReloadingComplete (197ms)
-	LoadAllAssembliesAndSetupDomain (4096ms)
-		LoadAssemblies (2322ms)
+		CreateAndSetChildDomain (761ms)
+	RebuildCommonClasses (753ms)
+	RebuildNativeTypeToScriptingClass (325ms)
+	initialDomainReloadingComplete (682ms)
+	LoadAllAssembliesAndSetupDomain (13947ms)
+		LoadAssemblies (7284ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2099ms)
-			TypeCache.Refresh (1502ms)
-				TypeCache.ScanAssembly (1418ms)
-			BuildScriptInfoCaches (484ms)
-			ResolveRequiredComponents (87ms)
-	FinalizeReload (9304ms)
+		AnalyzeDomain (7827ms)
+			TypeCache.Refresh (5741ms)
+				TypeCache.ScanAssembly (4836ms)
+			BuildScriptInfoCaches (1665ms)
+			ResolveRequiredComponents (351ms)
+	FinalizeReload (14077ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (7871ms)
+		SetupLoadedEditorAssemblies (10089ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (873ms)
-			ProcessInitializeOnLoadAttributes (2967ms)
-			ProcessInitializeOnLoadMethodAttributes (3948ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (2ms)
+			InitializePlatformSupportModulesInManaged (306ms)
+			SetLoadedEditorAssemblies (275ms)
+			BeforeProcessingInitializeOnLoad (2445ms)
+			ProcessInitializeOnLoadAttributes (4938ms)
+			ProcessInitializeOnLoadMethodAttributes (2105ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (12ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 1.09 seconds
-Refreshing native plugins compatible for Editor in 79.85 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 1.12 ms.
+Launched and connected shader compiler UnityShaderCompiler after 1.08 seconds
+Refreshing native plugins compatible for Editor in 77.05 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.81 ms.
 Unloading 213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6844 unused Assets / (5.9 MB). Loaded Objects now: 7520.
-Memory consumption went from 155.5 MB to 149.6 MB.
-Total: 158.493957 ms (FindLiveObjects: 75.985755 ms CreateObjectMapping: 5.125248 ms MarkObjects: 51.367397 ms  DeleteObjects: 26.011855 ms)
+Unloading 6844 unused Assets / (2.1 MB). Loaded Objects now: 7522.
+Memory consumption went from 155.6 MB to 153.5 MB.
+Total: 91.965292 ms (FindLiveObjects: 1.784030 ms CreateObjectMapping: 3.934152 ms MarkObjects: 70.659753 ms  DeleteObjects: 15.583280 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 71347.770892 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15be5ba4d5b2b3ffcc56475d7901d8b3') in 0.344788946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+  Time since last request: 29609.297300 seconds.
+  path: Assets/Models/ingredients
+  artifactKey: Guid(2a8cb785e18374a6f833c65ed1058f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ingredients using Guid(2a8cb785e18374a6f833c65ed1058f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36ce1a3293f4fa17f173741905cac816') in 0.02843833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
