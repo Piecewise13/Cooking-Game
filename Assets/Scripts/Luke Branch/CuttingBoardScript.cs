@@ -32,7 +32,7 @@ public class CuttingBoardScript : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-                var lettuceScript = other.gameObject.GetComponent<UnpreppedLettuce>();
+        var lettuceScript = other.gameObject.GetComponent<UnpreppedLettuce>();
 
         if(lettuceScript == null){
             return;
