@@ -23,30 +23,25 @@ public class UnpreppedLettuce : MonoBehaviour
     }
 
 
-    //TODO: Play sound effect when knife exits to let player know they chopped
-    void OnTriggerExit(Collider other)
-    {
-
-        if(!isOnCuttingBoard){
-            return;
-        }
-
-        if(!other.CompareTag("Knife")){
-            return;
-        }
-
-
-        health -= 1;
-        
-        if(health <= 0){
-            IngredientPrepped();
-        }
-    }
-
     void IngredientPrepped(){
         //TODO: Play poof particle effect to hide the transition
         Instantiate(choppedLettuce, gameObject.transform.position, gameObject.transform.rotation);
 
         Destroy(gameObject);
+    }
+
+    public void ChopIngredient(){
+        print("Overlap");
+        
+        if(!isOnCuttingBoard){
+            return;
+        }
+
+        print("Overlap knife");
+        health -= 1;
+        
+        if(health <= 0){
+            IngredientPrepped();
+        }
     }
 }

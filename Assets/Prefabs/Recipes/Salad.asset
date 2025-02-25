@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b73af60f35a14385a233e1728abdfe2, type: 3}
   m_Name: Salad
   m_EditorClassIdentifier: 
+  recipeIngredientList:
+  - ingredientType: 0
+    count: 2
