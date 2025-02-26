@@ -1,36 +1,33 @@
-Unity Editor version:    6000.0.32f1 (b2e806cf271c)
-Branch:                  6000.0/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 14.5 (Build 23F79)
-Darwin version:          23.5.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: YES
+Built from '6000.0/staging' branch; Version is '6000.0.32f1 (b2e806cf271c) revision 11724806'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 31965 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-/Users/lukemcfall/Cooking-Game
+C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 62006
+=======
+55745
+>>>>>>> master
 -job-worker-count
-3
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: /Users/lukemcfall/Cooking-Game
-/Users/lukemcfall/Cooking-Game
+Successfully changed project path to: C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game
+C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -66,13 +63,17 @@ Successfully changed project path to: /Users/lukemcfall/Cooking-Game
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8413285376]  Target information:
+Player connection [14576]  Target information:
 
+<<<<<<< HEAD
 Player connection [8413285376]  * "[IP] 10.37.199.152 [Port] 0 [Flags] 2 [Guid] 3782338104 [EditorId] 3782338104 [Version] 1048832 [Id] OSXEditor(0,DN0a25c798.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+=======
+Player connection [14576]  * "[IP] 10.129.15.118 [Port] 0 [Flags] 2 [Guid] 3910966650 [EditorId] 3910966650 [Version] 1048832 [Id] WindowsEditor(7,ANDG-PCC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+>>>>>>> master
 
-Player connection [8413285376] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8413285376] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [14576] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14576] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -82,18 +83,25 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 10.24 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 5.56 ms.
+=======
+Refreshing native plugins compatible for Editor in 6.83 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+>>>>>>> master
 Initialize engine version: 6000.0.32f1 (b2e806cf271c)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/lukemcfall/Cooking-Game/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
- preferred device: Apple M1 Pro (high power)
-Metal devices available: 1
-0: Apple M1 Pro (high power)
-Using device Apple M1 Pro (high power)
-Initializing Metal device caps: Apple M1 Pro
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7900 GRE (ID=0x744c)
+    Vendor:   ATI
+    VRAM:     16300 MB
+    Driver:   32.0.12033.1030
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
@@ -107,17 +115,52 @@ Registered in 0.005363 seconds.
 - Loaded All Assemblies, in  0.329 seconds
 Native extension for Android target not found
 Android Extension - Scanning For ADB Devices 104 ms
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002823 seconds.
+- Loaded All Assemblies, in  0.262 seconds
+Native extension for Android target not found
+Unauthorized device detected, Id: 1WMHH833DN1157, please add debug authorization and reconnect.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:ScanSync ()
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+
+Android Extension - Scanning For ADB Devices 202 ms
+>>>>>>> master
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.437 seconds
 Domain Reload Profiling: 767ms
 	BeginReloadAssembly (114ms)
+=======
+- Finished resetting the current domain, in  0.476 seconds
+Domain Reload Profiling: 737ms
+	BeginReloadAssembly (90ms)
+>>>>>>> master
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (38ms)
@@ -139,6 +182,29 @@ Domain Reload Profiling: 767ms
 			BeforeProcessingInitializeOnLoad (47ms)
 			ProcessInitializeOnLoadAttributes (108ms)
 			ProcessInitializeOnLoadMethodAttributes (59ms)
+=======
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (91ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (271ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+>>>>>>> master
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -147,17 +213,25 @@ Domain Reload Profiling: 767ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.691 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Refreshing native plugins compatible for Editor in 2.61 ms, found 10 plugins.
+=======
+- Loaded All Assemblies, in  0.583 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 7.03 ms, found 12 plugins.
+>>>>>>> master
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -738,10 +812,33 @@ Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+=======
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:307 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:292 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <878b6c863a9e4c42bf8483a7b6c60e0b>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+>>>>>>> master
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.633 seconds
 Domain Reload Profiling: 1329ms
 	BeginReloadAssembly (218ms)
@@ -1483,10 +1580,144 @@ Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6851 unused Assets / (6.0 MB). Loaded Objects now: 7695.
 Memory consumption went from 220.7 MB to 214.7 MB.
 Total: 7.071250 ms (FindLiveObjects: 0.343209 ms CreateObjectMapping: 0.196417 ms MarkObjects: 3.940583 ms  DeleteObjects: 2.590583 ms)
+=======
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling: 1244ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (133ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (664ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (536ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.58 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7111 unused Assets / (5.7 MB). Loaded Objects now: 7803.
+Memory consumption went from 170.5 MB to 164.8 MB.
+Total: 8.446100 ms (FindLiveObjects: 0.656600 ms CreateObjectMapping: 0.603100 ms MarkObjects: 4.174800 ms  DeleteObjects: 3.010500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26188.469164 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat
+  artifactKey: Guid(bbb56ac3cf3c61a46ab3887c0fdbda8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat using Guid(bbb56ac3cf3c61a46ab3887c0fdbda8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd8ec596f7ec44af05cd7a6c955be146') in 1.3494891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Materials/Cutting Board.mat
+  artifactKey: Guid(e0b79131ece5a4d468a1ea6cd178e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cutting Board.mat using Guid(e0b79131ece5a4d468a1ea6cd178e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a6a78e3068da6899859f869fa025ebf') in 0.0150756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/FresnelHighlight.mat
+  artifactKey: Guid(f5ccd52dc494e054fbe7d7161dcabe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/FresnelHighlight.mat using Guid(f5ccd52dc494e054fbe7d7161dcabe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6620a461959a7e56430dcd5aea383078') in 0.0148241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/Flat Blue.mat
+  artifactKey: Guid(91ff3830fc4055a4fb0d0d2be32101a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/Flat Blue.mat using Guid(91ff3830fc4055a4fb0d0d2be32101a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd761a31191441baed3c4b01fa5f70928') in 0.030952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Floor.mat
+  artifactKey: Guid(b660b7c0207d04afe8cf73e0a9ad2955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor.mat using Guid(b660b7c0207d04afe8cf73e0a9ad2955) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d9f7b7aaef61e5a377233d7b76fb081') in 0.0134666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat
+  artifactKey: Guid(830d28b607e09a2479e2005c2eb5c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat using Guid(830d28b607e09a2479e2005c2eb5c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a449d2649a25de65d22c7ee950ec77a0') in 0.0290354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.436089 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Shaders/Interactable.shadergraph
+  artifactKey: Guid(0927d29e476ce5843b1f7d2a96943c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Shaders/Interactable.shadergraph using Guid(0927d29e476ce5843b1f7d2a96943c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4949ef530bcdb3c8133e7fa547393442') in 1.259649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/Telport Anchor.mat
+  artifactKey: Guid(fd3c5d8fce991e04f9c11109dde95b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/Telport Anchor.mat using Guid(fd3c5d8fce991e04f9c11109dde95b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50caf2de9f013d1a3978b462aa39263d') in 0.5837974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/UI-NoZTest.mat
+  artifactKey: Guid(6f3d696f7c3365846b6dc2402afb3d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/UI-NoZTest.mat using Guid(6f3d696f7c3365846b6dc2402afb3d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '193e2fc292797212b6d7a8febbd0fc93') in 0.0360916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph
+  artifactKey: Guid(740445f1490c01e4b8feacf8d9ab5e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph using Guid(740445f1490c01e4b8feacf8d9ab5e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d169ab6da4034b942dc7691e447da2c') in 0.3220918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 5043.930310 seconds.
+  path: Assets/XR/Settings/OpenXR Editor Settings.asset
+  artifactKey: Guid(f6c9abe23d3ef604889611fcb22e762f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Editor Settings.asset using Guid(f6c9abe23d3ef604889611fcb22e762f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b07ee8d0af2073a54c21f97f26ee02db') in 0.0153426 seconds
+Number of updated asset objects reloaded before import = 21Number of asset objects unloaded after import = 1
+>>>>>>> master
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 429.834544 seconds.
   path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
   artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1574,9 +1805,49 @@ Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6850 unused Assets / (3.2 MB). Loaded Objects now: 7718.
 Memory consumption went from 202.1 MB to 198.8 MB.
 Total: 8.141958 ms (FindLiveObjects: 0.377375 ms CreateObjectMapping: 0.214916 ms MarkObjects: 5.002125 ms  DeleteObjects: 2.546625 ms)
+=======
+  Time since last request: 0.691163 seconds.
+  path: Assets/XR/Loaders/OpenXRLoader.asset
+  artifactKey: Guid(0ead43abccb9cc0468c8762ffe96d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/OpenXRLoader.asset using Guid(0ead43abccb9cc0468c8762ffe96d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '603fc336b9fd9e80de5e79562dfa2cab') in 0.0099219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.105038 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph
+  artifactKey: Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph using Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6695659186763d34f2e9792568c56b4d') in 0.7872688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph
+  artifactKey: Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph using Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '863504e2bd8b43efc27cd751af12de83') in 0.7510209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph
+  artifactKey: Guid(fb6390f650ca44a5ba3246d8dda47927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph using Guid(fb6390f650ca44a5ba3246d8dda47927) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e78491e2f41430d557f2c415f87569e2') in 0.1285451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd17207689a1dbd9c882b3ba69e878b29') in 0.0378707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+>>>>>>> master
 
 Prepare: number of updated asset objects reloaded= 1
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Begin MonoManager ReloadAssembly
 Thread 0x16f153000 may have been prematurely finalized
@@ -1633,9 +1904,18 @@ Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6850 unused Assets / (5.5 MB). Loaded Objects now: 7721.
 Memory consumption went from 224.4 MB to 218.9 MB.
 Total: 9.026791 ms (FindLiveObjects: 0.440959 ms CreateObjectMapping: 0.223583 ms MarkObjects: 5.021542 ms  DeleteObjects: 3.339750 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Shader/Legacy/glTF-pbrMetallicRoughness-Opaque.shadergraph
+  artifactKey: Guid(90c26dfde11bf4ff69ef936c6e6b1ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Shader/Legacy/glTF-pbrMetallicRoughness-Opaque.shadergraph using Guid(90c26dfde11bf4ff69ef936c6e6b1ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4891702ecde50c258f4da4c4cfb705e4') in 1.0717052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+>>>>>>> master
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Begin MonoManager ReloadAssembly
 Thread 0x16f153000 may have been prematurely finalized
@@ -1692,9 +1972,18 @@ Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6850 unused Assets / (7.0 MB). Loaded Objects now: 7724.
 Memory consumption went from 224.4 MB to 217.5 MB.
 Total: 7.906792 ms (FindLiveObjects: 0.334792 ms CreateObjectMapping: 0.188000 ms MarkObjects: 3.863792 ms  DeleteObjects: 3.519292 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Shader/Legacy/glTF-pbrSpecularGlossiness-Blend-double.shadergraph
+  artifactKey: Guid(570c30d8611584eb4b05ed386a2c66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Shader/Legacy/glTF-pbrSpecularGlossiness-Blend-double.shadergraph using Guid(570c30d8611584eb4b05ed386a2c66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7253c34a9c1264552ca517d7107f540') in 0.8905634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+>>>>>>> master
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Refreshing native plugins compatible for Editor in 2.54 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.20 ms.
@@ -1702,9 +1991,18 @@ Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 7724.
 Memory consumption went from 170.7 MB to 168.4 MB.
 Total: 18.212792 ms (FindLiveObjects: 0.341125 ms CreateObjectMapping: 0.106750 ms MarkObjects: 17.354291 ms  DeleteObjects: 0.409875 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8fccadfa0f7fc96aa1dc10252467222') in 0.0136463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+>>>>>>> master
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Begin MonoManager ReloadAssembly
 Thread 0x16f153000 may have been prematurely finalized
@@ -1761,9 +2059,18 @@ Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6850 unused Assets / (6.8 MB). Loaded Objects now: 7727.
 Memory consumption went from 201.7 MB to 194.9 MB.
 Total: 8.306958 ms (FindLiveObjects: 0.346708 ms CreateObjectMapping: 0.178500 ms MarkObjects: 4.030500 ms  DeleteObjects: 3.750958 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Shader/Legacy/glTF-pbrMetallicRoughness-Opaque-double.shadergraph
+  artifactKey: Guid(ba6d401c74b2c4f96af7edf0fe32241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Shader/Legacy/glTF-pbrMetallicRoughness-Opaque-double.shadergraph using Guid(ba6d401c74b2c4f96af7edf0fe32241e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9bf2a5ccc3a1d388c40f781c52e575d') in 1.0536018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+>>>>>>> master
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Refreshing native plugins compatible for Editor in 2.84 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.20 ms.
@@ -1771,9 +2078,18 @@ Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 7727.
 Memory consumption went from 147.9 MB to 145.6 MB.
 Total: 30.414792 ms (FindLiveObjects: 0.336208 ms CreateObjectMapping: 0.101625 ms MarkObjects: 29.597875 ms  DeleteObjects: 0.378500 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/Gold.mat
+  artifactKey: Guid(c2e40fa84d53ccd428f640eac126b1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/Gold.mat using Guid(c2e40fa84d53ccd428f640eac126b1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cae3a6953bbd1ef43c854d31e6752185') in 0.0145204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+>>>>>>> master
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -1783,9 +2099,18 @@ Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6795 unused Assets / (6.3 MB). Loaded Objects now: 7712.
 Memory consumption went from 151.5 MB to 145.2 MB.
 Total: 26.620708 ms (FindLiveObjects: 0.507625 ms CreateObjectMapping: 0.191500 ms MarkObjects: 23.074792 ms  DeleteObjects: 2.845875 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph
+  artifactKey: Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph using Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e386b34470802d3371796a68827258ed') in 0.870473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+>>>>>>> master
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Begin MonoManager ReloadAssembly
 Thread 0x16f153000 may have been prematurely finalized
@@ -1960,9 +2285,17 @@ Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6851 unused Assets / (6.2 MB). Loaded Objects now: 7737.
 Memory consumption went from 201.7 MB to 195.5 MB.
 Total: 7.333625 ms (FindLiveObjects: 0.339417 ms CreateObjectMapping: 0.173166 ms MarkObjects: 3.970209 ms  DeleteObjects: 2.850375 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Shader/glTF-pbrSpecularGlossiness.shadergraph
+  artifactKey: Guid(9a07dad0f3c4e43ff8312e3b5fa42300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Shader/glTF-pbrSpecularGlossiness.shadergraph using Guid(9a07dad0f3c4e43ff8312e3b5fa42300) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f35a1124f2cc2357fcb520a03135b130') in 1.0864313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+>>>>>>> master
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Refreshing native plugins compatible for Editor in 10.04 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.22 ms.
@@ -1970,9 +2303,18 @@ Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 7737.
 Memory consumption went from 147.9 MB to 145.7 MB.
 Total: 32.095917 ms (FindLiveObjects: 0.311167 ms CreateObjectMapping: 0.093167 ms MarkObjects: 31.295333 ms  DeleteObjects: 0.395875 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/Interactables/XRGrabInteractable.cs
+  artifactKey: Guid(0ad34abafad169848a38072baa96cdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/Interactables/XRGrabInteractable.cs using Guid(0ad34abafad169848a38072baa96cdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4718d046364b20f1e887d7b33cd08c76') in 0.0006022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+>>>>>>> master
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Begin MonoManager ReloadAssembly
 Thread 0x16f153000 may have been prematurely finalized
@@ -2431,3 +2773,16 @@ Received Import Request.
 Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a594bd9ca4e344ede2f1a8395027b86') in 0.387644834 seconds
 Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 33
 
+=======
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.cloud.gltfast/Runtime/Shader/Legacy/glTF-pbrSpecularGlossiness-Opaque-double.shadergraph
+  artifactKey: Guid(4233af6163f6143de9458c05a40a9e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cloud.gltfast/Runtime/Shader/Legacy/glTF-pbrSpecularGlossiness-Opaque-double.shadergraph using Guid(4233af6163f6143de9458c05a40a9e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c24a408f6940e1478bba4cc6b27c436d') in 1.0702834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+>>>>>>> master

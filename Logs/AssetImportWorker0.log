@@ -15,7 +15,11 @@ C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 53689
+=======
+59521
+>>>>>>> master
 -job-worker-count
 5
 -background-job-worker-count
@@ -61,7 +65,11 @@ C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [17588]  Target information:
 
+<<<<<<< HEAD
 Player connection [17588]  * "[IP] 10.129.15.118 [Port] 0 [Flags] 2 [Guid] 331649507 [EditorId] 331649507 [Version] 1048832 [Id] WindowsEditor(7,ANDG-PCC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+=======
+Player connection [8413285376]  * "[IP] 10.37.199.152 [Port] 0 [Flags] 2 [Guid] 2157915161 [EditorId] 2157915161 [Version] 1048832 [Id] OSXEditor(0,DN0a25c798.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+>>>>>>> master
 
 Player connection [17588] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [17588] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -75,8 +83,13 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 7.64 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.49 ms.
+=======
+Refreshing native plugins compatible for Editor in 28.86 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 5.59 ms.
+>>>>>>> master
 Initialize engine version: 6000.0.32f1 (b2e806cf271c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game/Assets
@@ -88,6 +101,7 @@ Direct3D:
     VRAM:     16300 MB
     Driver:   32.0.12033.1030
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
@@ -101,17 +115,39 @@ Registered in 0.002712 seconds.
 - Loaded All Assemblies, in  0.240 seconds
 Native extension for Android target not found
 Android Extension - Scanning For ADB Devices 1179 ms
+=======
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56277
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004835 seconds.
+- Loaded All Assemblies, in  0.353 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 114 ms
+>>>>>>> master
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  1.446 seconds
 Domain Reload Profiling: 1686ms
 	BeginReloadAssembly (80ms)
+=======
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 835ms
+	BeginReloadAssembly (124ms)
+>>>>>>> master
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (30ms)
@@ -133,6 +169,29 @@ Domain Reload Profiling: 1686ms
 			BeforeProcessingInitializeOnLoad (38ms)
 			ProcessInitializeOnLoadAttributes (86ms)
 			ProcessInitializeOnLoadMethodAttributes (42ms)
+=======
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (124ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (122ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (482ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (193ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+>>>>>>> master
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -141,6 +200,7 @@ Domain Reload Profiling: 1686ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.588 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -148,10 +208,20 @@ Refreshing native plugins compatible for Editor in 7.76 ms, found 12 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+=======
+- Loaded All Assemblies, in  0.725 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.20 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+>>>>>>> master
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:307 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:292 
@@ -169,6 +239,11 @@ UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
+=======
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+>>>>>>> master
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -176,6 +251,7 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.709 seconds
 Domain Reload Profiling: 1295ms
 	BeginReloadAssembly (126ms)
@@ -425,3 +501,523 @@ C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFC242B0000), size: 2363392 (r
 
 A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
  * C:/Users/ANDG-PCF/AppData/Local/Temp/Unity/Editor/Crashes
+=======
+- Finished resetting the current domain, in  0.800 seconds
+Domain Reload Profiling: 1524ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (531ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (169ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (801ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (397ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7110 unused Assets / (2.6 MB). Loaded Objects now: 7804.
+Memory consumption went from 160.4 MB to 157.9 MB.
+Total: 8.275791 ms (FindLiveObjects: 0.454709 ms CreateObjectMapping: 0.240791 ms MarkObjects: 4.294167 ms  DeleteObjects: 3.285334 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1892353.384474 seconds.
+  path: Assets/Models/Food Models
+  artifactKey: Guid(b512b74d94817324699b024d3dc3048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food Models using Guid(b512b74d94817324699b024d3dc3048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a13a060f08881d69e96fdfedb0d758b1') in 0.008346542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Stove.glb
+  artifactKey: Guid(638ef4eabeb87da4e8f82374fe8154aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stove.glb using Guid(638ef4eabeb87da4e8f82374fe8154aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8ef61e246227ee383a22203f2c78562') in 0.647075458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.979988 seconds.
+  path: Assets/Prefabs/Lettuce/PreppedLettuce.prefab
+  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/PreppedLettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf49f04fe9f2c4336caa40ddd923967a') in 0.043726208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.933625 seconds.
+  path: Assets/Prefabs/Lettuce/PreppedLettuce.prefab
+  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/PreppedLettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcf2bdd80367a1617949ddfde0b9ec34') in 0.053303167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.279005 seconds.
+  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
+  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae88328fc7fe7a945288354335997eaa') in 0.002676583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.787627 seconds.
+  path: Assets/Prefabs/Recipes/Salad.asset
+  artifactKey: Guid(43cdb086d084c4334934212b0eb54494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Recipes/Salad.asset using Guid(43cdb086d084c4334934212b0eb54494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '840490a4e9ff07ee5b3e03320ede5f84') in 0.002598542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.722407 seconds.
+  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
+  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d8307f45fe3287940c1e8bf5792ed51') in 0.097952584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
+  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '850b555c5513ef182bd14a0f10b616f1') in 0.02511525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.145140 seconds.
+  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
+  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f50be06a62738822a023ebc860fd9a5') in 0.024158708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.611931 seconds.
+  path: Assets/Prefabs/Lettuce/PreppedLettuce.prefab
+  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/PreppedLettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95c007122ccf2dac3b5bad8f963429db') in 0.103210791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.041533 seconds.
+  path: Assets/Prefabs/Lettuce/PreppedLettuce.prefab
+  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/PreppedLettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dd3f15e28bb0c725a6f5fa00af34df3') in 0.013028542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.647192 seconds.
+  path: Assets/Prefabs/Lettuce/PreppedLettuce.prefab
+  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/PreppedLettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6be94e221bc848d528c78c2b2e5af4e') in 0.042564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.332554 seconds.
+  path: Assets/Prefabs/Lettuce/PreppedLettuce.prefab
+  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/PreppedLettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afbb3633a16e703827cba55684864415') in 0.029727125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x33710b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.974 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.44 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.853 seconds
+Domain Reload Profiling: 1830ms
+	BeginReloadAssembly (512ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (115ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (271ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (674ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.54 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7109 unused Assets / (3.2 MB). Loaded Objects now: 7892.
+Memory consumption went from 206.6 MB to 203.4 MB.
+Total: 8.807875 ms (FindLiveObjects: 0.465417 ms CreateObjectMapping: 1.208375 ms MarkObjects: 4.573000 ms  DeleteObjects: 2.560375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.037659 seconds.
+  path: Assets/Models/Food Models/bottom bun.glb
+  artifactKey: Guid(a04d7cf585c9f4a7eb84566801e971d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food Models/bottom bun.glb using Guid(a04d7cf585c9f4a7eb84566801e971d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '816b61c2d02a1494a50e7331af8d2803') in 0.377039833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Models/Food Models/completed-burger.glb
+  artifactKey: Guid(98ac0e36f2cee448abb7b43e0e177fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food Models/completed-burger.glb using Guid(98ac0e36f2cee448abb7b43e0e177fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54c2d92c90351d002fa19cca0e560e72') in 0.036772959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Models/Food Models/cut lettuce.glb
+  artifactKey: Guid(fc91d48085a8c4c8eb98a35b4ac409fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food Models/cut lettuce.glb using Guid(fc91d48085a8c4c8eb98a35b4ac409fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3278e3f58e800c1707051a38e3a64a98') in 0.020909666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Models/Food Models/cooked patty.glb
+  artifactKey: Guid(4f7a2b0d4cae64b97ad3d40fa3b70a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food Models/cooked patty.glb using Guid(4f7a2b0d4cae64b97ad3d40fa3b70a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57df65512bd8e6c403f1b5f94fbaf6c4') in 0.020171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.774979 seconds.
+  path: Assets/Models/Food Models/cutting board.glb
+  artifactKey: Guid(372aac567cb5a427bbe0cfdf4daaee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food Models/cutting board.glb using Guid(372aac567cb5a427bbe0cfdf4daaee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a683ee5520247d48715b95fa6d24040') in 0.033135542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Models/Food Models/top bun.glb
+  artifactKey: Guid(2bde67c766f224bfd8019d3484a76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food Models/top bun.glb using Guid(2bde67c766f224bfd8019d3484a76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3c7a1237c5a9739535595b5bec8ad0c') in 0.035253709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Food Models/uncooked patty.glb
+  artifactKey: Guid(ca7d4994beb0344f69f2c8c145ba9601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Food Models/uncooked patty.glb using Guid(ca7d4994beb0344f69f2c8c145ba9601) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ef8e0d26ebb7663da8a05fd8c7e0e47') in 0.025819625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b5e3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.699 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.23 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.855 seconds
+Domain Reload Profiling: 1557ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (47ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (855ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (658ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.61 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7109 unused Assets / (3.6 MB). Loaded Objects now: 7918.
+Memory consumption went from 203.9 MB to 200.3 MB.
+Total: 10.409958 ms (FindLiveObjects: 0.332875 ms CreateObjectMapping: 0.196750 ms MarkObjects: 8.104750 ms  DeleteObjects: 1.774875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b5e3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.749 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.53 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.836 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (148ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (430ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (837ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (668ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (412ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.71 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7109 unused Assets / (3.2 MB). Loaded Objects now: 7921.
+Memory consumption went from 226.3 MB to 223.1 MB.
+Total: 6.220125 ms (FindLiveObjects: 0.321792 ms CreateObjectMapping: 0.185916 ms MarkObjects: 3.998250 ms  DeleteObjects: 1.713292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.77 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.64 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 7921.
+Memory consumption went from 172.2 MB to 170.0 MB.
+Total: 65.684625 ms (FindLiveObjects: 2.295083 ms CreateObjectMapping: 0.571667 ms MarkObjects: 62.402042 ms  DeleteObjects: 0.414958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b5e3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.657 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.36 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.870 seconds
+Domain Reload Profiling: 1530ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (150ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (141ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (870ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.80 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7109 unused Assets / (3.2 MB). Loaded Objects now: 7924.
+Memory consumption went from 203.6 MB to 200.4 MB.
+Total: 6.640334 ms (FindLiveObjects: 0.388750 ms CreateObjectMapping: 0.256917 ms MarkObjects: 4.004250 ms  DeleteObjects: 1.989625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 267.980440 seconds.
+  path: Assets/Prefabs/Lettuce/PreppedLettuce.prefab
+  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/PreppedLettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20185789070b249c93b904986349bb21') in 0.452428875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.29 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 8065.
+Memory consumption went from 157.3 MB to 155.1 MB.
+Total: 9.934083 ms (FindLiveObjects: 0.258750 ms CreateObjectMapping: 0.095250 ms MarkObjects: 9.214584 ms  DeleteObjects: 0.364958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.518909 seconds.
+  path: Assets/Prefabs/Lettuce/Prepped Lettuce.prefab
+  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/Prepped Lettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8fb9d986af9235fbaafe7aa8147f91c') in 0.053040667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.317370 seconds.
+  path: Assets/Prefabs/Knife.prefab
+  artifactKey: Guid(b2a7eb95d723b489388d0b2085664036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Knife.prefab using Guid(b2a7eb95d723b489388d0b2085664036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1ad783314a7cfff7c3ef160092fb1f5') in 0.084394542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.410277 seconds.
+  path: Assets/Prefabs/Lettuce/Prepped Lettuce.prefab
+  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/Prepped Lettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9dd0b6f8c524ff8ca42040be007f405') in 0.045780458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.874864 seconds.
+  path: Assets/Prefabs/Lettuce/Plated Lettuce.prefab
+  artifactKey: Guid(e1af04e3ca2f54ba499f9addb4fc5f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/Plated Lettuce.prefab using Guid(e1af04e3ca2f54ba499f9addb4fc5f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d262e56b4fa9fae45d96fc475c1beda') in 0.064182708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.189284 seconds.
+  path: Assets/Prefabs/Lettuce/Prepped Lettuce.prefab
+  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lettuce/Prepped Lettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47f65876dcf50eb04c2e4fc953d3d627') in 0.050508292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+>>>>>>> master
