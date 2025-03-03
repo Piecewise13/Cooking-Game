@@ -6,20 +6,27 @@ using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
 [CreateAssetMenu(fileName = "RecipeScript", menuName = "Scriptable Objects/RecipeScript")]
-public class RecipeScript : ScriptableObject
+public class RecipeObject : ScriptableObject
 {
     
     public List<Ingredient> recipeIngredientList;
 
+    public GameObject finishedModel;
+
     public override bool Equals(object other)
     {
-        var otherRecipe = other as Dictionary<IngredientType, int>;
+        var otherRecipe = other as Dictionary<PreppedIngredientType, int>;
 
         if(otherRecipe == null){
             return false;
         }
 
         foreach (Ingredient ingredient in recipeIngredientList){
+
+            if(!otherRecipe.ContainsKey(ingredient.ingredientType)){
+                return false;
+            }
+
             if(ingredient.count != otherRecipe[ingredient.ingredientType]){
                 return false;
             }
@@ -32,11 +39,14 @@ public class RecipeScript : ScriptableObject
 
 [Serializable]
 public struct Ingredient{
-    public IngredientType ingredientType;
+    public PreppedIngredientType ingredientType;
 
     public int count;
 }
 
-public enum IngredientType {
-    LETTUCE
+public enum PreppedIngredientType {
+    LETTUCE,
+    COOKED_PATTY,
+
+    BUN
 }

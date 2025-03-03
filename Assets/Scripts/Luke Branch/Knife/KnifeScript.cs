@@ -26,6 +26,8 @@ public class KnifeScript : MonoBehaviour
             return;
         }
 
+        print("Chopping Lettuce");
+
         lettuceScript.ChopIngredient();
     }
 }

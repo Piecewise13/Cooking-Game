@@ -1,10 +1,7 @@
 using UnityEngine;
 
-public abstract class IngredientParent : MonoBehaviour
+public class PreppedBun : PreppedIngredients
 {
-
-    public INGREDIENT_PREP prepType;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,9 +13,4 @@ public abstract class IngredientParent : MonoBehaviour
     {
         
     }
-
-    public void DespawnIngredient(){
-
-    }
 }
-

@@ -1,29 +1,29 @@
 using UnityEngine;
 
-public class UnpreppedIngredient : IngredientParent
+public abstract class UnpreppedIngredient : MonoBehaviour
 {
 
     public GameObject preppedPrefab;
 
-    //public INGREDIENT_PREP prepType;
+    protected virtual void IngredientPrepped(){
+        //TODO: Play poof particle effect to hide the transition
+        Instantiate(preppedPrefab, gameObject.transform.position, gameObject.transform.rotation);
 
-    public float prepTime;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Destroy(gameObject);
     }
 }
 
 public enum INGREDIENT_PREP {
     CHOP,
-    COOK,
-    TURN_IN
+    COOK
+}
+
+public interface Choppable {
+    public void ChopIngredient();
+}
+
+public interface Cookable{
+    public void StartCooking();
+
+    public void StopCooking();
 }

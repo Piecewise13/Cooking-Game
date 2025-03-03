@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lukes-Scene.unity
     guid: 3051dec25ab5c45a48e44558eebf1eee
-  - enabled: 1
+  - enabled: 0
     path: Assets/MainScene.unity
     guid: 984120ed63ff643b18ca65bbb4d0a821
   m_configObjects:

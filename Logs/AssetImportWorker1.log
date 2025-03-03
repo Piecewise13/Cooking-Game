@@ -1,33 +1,36 @@
+Unity Editor version:    6000.0.32f1 (b2e806cf271c)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '6000.0/staging' branch; Version is '6000.0.32f1 (b2e806cf271c) revision 11724806'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 31965 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game
+/Users/lukemcfall/Cooking-Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-<<<<<<< HEAD
-53689
-=======
-59521
->>>>>>> master
+49163
 -job-worker-count
-5
+3
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game
-C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game
+Successfully changed project path to: /Users/lukemcfall/Cooking-Game
+/Users/lukemcfall/Cooking-Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -63,17 +66,13 @@ C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15080]  Target information:
+Player connection [8682032128]  Target information:
 
-<<<<<<< HEAD
-Player connection [15080]  * "[IP] 10.129.15.118 [Port] 0 [Flags] 2 [Guid] 1132125458 [EditorId] 1132125458 [Version] 1048832 [Id] WindowsEditor(7,ANDG-PCC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-=======
-Player connection [8413285376]  * "[IP] 10.37.199.152 [Port] 0 [Flags] 2 [Guid] 2694278417 [EditorId] 2694278417 [Version] 1048832 [Id] OSXEditor(0,DN0a25c798.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
->>>>>>> master
+Player connection [8682032128]  * "[IP] 10.37.193.108 [Port] 0 [Flags] 2 [Guid] 3628323202 [EditorId] 3628323202 [Version] 1048832 [Id] OSXEditor(0,DN0a25c16c.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [15080] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15080] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [8682032128] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8682032128] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -83,115 +82,63 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-<<<<<<< HEAD
-Refreshing native plugins compatible for Editor in 7.08 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
-=======
-Refreshing native plugins compatible for Editor in 29.01 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 5.82 ms.
->>>>>>> master
+Refreshing native plugins compatible for Editor in 17.80 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 5.68 ms.
 Initialize engine version: 6000.0.32f1 (b2e806cf271c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ANDG-PCF/Documents/GitHub/Cooking-Game/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/lukemcfall/Cooking-Game/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 7900 GRE (ID=0x744c)
-    Vendor:   ATI
-    VRAM:     16300 MB
-    Driver:   32.0.12033.1030
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
 Initialize mono
-<<<<<<< HEAD
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003026 seconds.
-- Loaded All Assemblies, in  0.304 seconds
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 185 ms
-=======
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56281
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56789
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001617 seconds.
-- Loaded All Assemblies, in  0.354 seconds
+Registered in 0.004004 seconds.
+- Loaded All Assemblies, in  0.344 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 114 ms
->>>>>>> master
+Android Extension - Scanning For ADB Devices 89 ms
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-<<<<<<< HEAD
-- Finished resetting the current domain, in  0.472 seconds
-Domain Reload Profiling: 775ms
-	BeginReloadAssembly (98ms)
-=======
-- Finished resetting the current domain, in  0.481 seconds
-Domain Reload Profiling: 835ms
-	BeginReloadAssembly (124ms)
->>>>>>> master
+- Finished resetting the current domain, in  0.424 seconds
+Domain Reload Profiling: 769ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-<<<<<<< HEAD
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (130ms)
-		LoadAssemblies (97ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (103ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (125ms)
-				TypeCache.ScanAssembly (115ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (472ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (434ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (263ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-=======
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (142ms)
-		LoadAssemblies (123ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (122ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (131ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (481ms)
+	FinalizeReload (425ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (441ms)
+		SetupLoadedEditorAssemblies (381ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (193ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
->>>>>>> master
+			InitializePlatformSupportModulesInManaged (159ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -200,47 +147,20 @@ Domain Reload Profiling: 835ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-<<<<<<< HEAD
-- Loaded All Assemblies, in  0.661 seconds
+- Loaded All Assemblies, in  0.682 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 6.63 ms, found 12 plugins.
-=======
-- Loaded All Assemblies, in  0.730 seconds
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.57 ms, found 10 plugins.
->>>>>>> master
+Refreshing native plugins compatible for Editor in 2.06 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-<<<<<<< HEAD
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:307 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:292 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <878b6c863a9e4c42bf8483a7b6c60e0b>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-=======
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
->>>>>>> master
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -248,660 +168,71 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-<<<<<<< HEAD
-- Finished resetting the current domain, in  0.617 seconds
-Domain Reload Profiling: 1275ms
-	BeginReloadAssembly (132ms)
-=======
-- Finished resetting the current domain, in  0.796 seconds
-Domain Reload Profiling: 1526ms
-	BeginReloadAssembly (142ms)
->>>>>>> master
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1405ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (455ms)
-		LoadAssemblies (304ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (229ms)
-			TypeCache.Refresh (164ms)
-				TypeCache.ScanAssembly (149ms)
-			BuildScriptInfoCaches (51ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (617ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (488ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (302ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 5.34 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6853 unused Assets / (3.7 MB). Loaded Objects now: 7534.
-Memory consumption went from 163.7 MB to 160.0 MB.
-Total: 6.034000 ms (FindLiveObjects: 0.682300 ms CreateObjectMapping: 0.308400 ms MarkObjects: 3.522100 ms  DeleteObjects: 1.520700 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.65 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (2.2 MB). Loaded Objects now: 7534.
-Memory consumption went from 127.1 MB to 124.9 MB.
-Total: 4.999900 ms (FindLiveObjects: 0.364000 ms CreateObjectMapping: 0.113200 ms MarkObjects: 4.048200 ms  DeleteObjects: 0.473600 ms)
-
-Prepare: number of updated asset objects reloaded= 150
-AssetImportParameters requested are different than current active one (requested -> active):
-  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
-  graphicsApiMask: 2099200 -> 4
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 9.61 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (2.2 MB). Loaded Objects now: 7534.
-Memory consumption went from 126.2 MB to 124.0 MB.
-Total: 74.115800 ms (FindLiveObjects: 33.808800 ms CreateObjectMapping: 0.472400 ms MarkObjects: 36.844100 ms  DeleteObjects: 2.988600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
-  graphicsApiMask: 2099200 -> 4
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.845 seconds
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 9.06 ms, found 12 plugins.
-The file 'MemoryStream' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
-Fatal Error! The file 'MemoryStream' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
-Crash!!!
-SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Mono;.;C:\Users\ANDG-PCF\Documents\GitHub\Cooking-Game;C:\Users\ANDG-PCF\Documents\GitHub\Cooking-Game\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'ANDG-PCF'
-OS-Version: 10.0.0
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe:Unity.exe (00007FF6DC3B0000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.0.32.59398
-C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFC31480000), size: 2502656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFC30530000), size: 815104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFC2E990000), size: 3960832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFC30700000), size: 1871872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFC2F010000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3194
-C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFC30960000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFC2ED60000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFC2E820000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFC2F170000), size: 1359872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\IMM32.DLL:IMM32.DLL (00007FFC30990000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.dll:Unity.dll (00007FFB6AD00000), size: 87064576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.0.32.59398
-C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFC2EE90000), size: 1531904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFC31380000), size: 737280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFBB7B80000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFC1B550000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFC2FD10000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.1882
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\etccompress.dll:etccompress.dll (00007FFB83F10000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFBD0F00000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFBB7A20000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFC2FA50000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFC1B540000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2201.24001
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 5783552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFBB78F0000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFC310E0000), size: 475136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFC2FDC0000), size: 1138688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFC12960000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
-C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFC2FB70000), size: 1658880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFC12930000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
-C:\WINDOWS\System32\combase.dll:combase.dll (00007FFC2FFD0000), size: 3661824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFC12220000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
-C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFC2F5C0000), size: 4743168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFC2E040000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFC28E60000), size: 2482176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFC309D0000), size: 7356416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FFC1D3C0000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFC2BF10000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFC2BCC0000), size: 1228800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFC2CE30000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFC308E0000), size: 380928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFC2D030000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3194
-C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFC2F2D0000), size: 876544 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFC2F040000), size: 520192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFBD54D0000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFC269C0000), size: 1171456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC1FEF0000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC1CB90000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFB6A460000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFBB7730000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFC2A190000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFC12D00000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFC1B4C0000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
-C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFC2A1A0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFC2BBF0000), size: 290816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFC2D8D0000), size: 294912 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\OpenRL.dll:OpenRL.dll (0000022E4EA20000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
-C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000052780000), size: 856064 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.30319.1
-C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (00000000526E0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.30319.1
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\embree.dll:embree.dll (00007FFB679C0000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
-C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFC2E4B0000), size: 389120 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\tbb.dll:tbb.dll (00007FFC1B470000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.2022.1111
-C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFC2DB40000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3194
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (0000022E4F670000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
-C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFC2BC60000), size: 376832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFC2D620000), size: 106496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1591
-C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFC2F0D0000), size: 626688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFC2DE70000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2894
-C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFC2BAC0000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFC2C490000), size: 8613888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3194
-C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FFC31160000), size: 954368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3194
-C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFC2E730000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FFBF98C0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFC2B7B0000), size: 2285568 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFC312D0000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
-C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFC2ADF0000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2454
-C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFC2FB10000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2894
-C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFC25A10000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFC268D0000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3194
-C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFC268A0000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3194
-C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFC2D070000), size: 1200128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3194
-C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFC03070000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFC00800000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FFC007D0000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFC26690000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFC25AC0000), size: 544768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFC282B0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\AMDUnityPlugin.DLL:AMDUnityPlugin.DLL (00007FFB67150000), size: 8814592 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFBB63E0000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFBB21D0000), size: 364544 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFC26740000), size: 598016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFC2E480000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Users\ANDG-PCF\Documents\GitHub\Cooking-Game\Library\PackageCache\com.unity.xr.oculus\Runtime\x64\AudioPluginOculusSpatializer.dll:AudioPluginOculusSpatializer.dll (00007FFB5A1E0000), size: 2899968 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\System32\DriverStore\FileRepository\u0410212.inf_amd64_daae2c8b5eb35aaa\B409877\amdxx64.dll:amdxx64.dll (00007FFC1FFE0000), size: 67723264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.12033.1030
-C:\WINDOWS\system32\atidxx64.dll:atidxx64.dll (00007FFC1FE70000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.17.11.74
-C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FFC2A1B0000), size: 638976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\Windows\System32\DriverStore\FileRepository\u0410212.inf_amd64_daae2c8b5eb35aaa\B409877\amdenc64.dll:amdenc64.dll (0000000052860000), size: 1421312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.12033.1030
-C:\Windows\System32\DriverStore\FileRepository\u0410212.inf_amd64_daae2c8b5eb35aaa\B409877\amdihk64.dll:amdihk64.dll (00007FFC1F530000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.0.0.1788
-C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFC1CB70000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1000
-C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFC1D590000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFC1D050000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1000
-C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFC1D0E0000), size: 983040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFC1CF90000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFC2DC00000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2454
-C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.6-0\MpOav.dll:MpOav.dll (00007FFC1CF00000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.25010.6
-C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFC0C370000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.6.0
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\radeonrays.dll:radeonrays.dll (00007FFB83EB0000), size: 344064 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFB656F0000), size: 10756096 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFC2B300000), size: 1028096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.3037
-C:\Windows\System32\Windows.FileExplorer.Common.dll:Windows.FileExplorer.Common.dll (00007FFC12AD0000), size: 729088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFC2A5C0000), size: 1474560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFC1C1B0000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\windows.staterepositoryclient.dll:windows.staterepositoryclient.dll (00007FFC2CEF0000), size: 282624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FFC10E50000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\urlmon.dll:urlmon.dll (00007FFC14860000), size: 1949696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.26100.3194
-C:\WINDOWS\SYSTEM32\iertutil.dll:iertutil.dll (00007FFC1B120000), size: 2920448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.26100.3037
-C:\WINDOWS\SYSTEM32\srvcli.dll:srvcli.dll (00007FFC1AF90000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\netutils.dll:netutils.dll (00007FFC2D020000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\Windows\System32\cldapi.dll:cldapi.dll (00007FFC0FA80000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\virtdisk.dll:virtdisk.dll (00007FFBFD4A0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1591
-C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FFC2DEE0000), size: 380928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFC242B0000), size: 2363392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3037
-
-========== OUTPUTTING STACK TRACE ==================
-
-0x00007FFC2EA5BB0A (KERNELBASE) RaiseException
-0x00007FFB6C89AB45 (Unity) EditorMonoConsole::LogToConsoleImplementation
-0x00007FFB6C89B80A (Unity) EditorMonoConsole::LogToConsoleImplementation
-0x00007FFB6D54C3BD (Unity) DebugStringToFilePostprocessedStacktrace
-0x00007FFB6D54B758 (Unity) DebugStringToFile
-0x00007FFB6B94700A (Unity) CachedReader::OutOfBoundsError
-0x00007FFB6B9476E4 (Unity) CachedReader::UpdateReadCache
-0x00007FFB6BC9F844 (Unity) Transfer_Blittable_SingleValueField<StreamedBinaryRead,signed char>
-0x00007FFB6BBEE2DC (Unity) ExecuteSerializationCommands<JSONRead>
-0x00007FFB6BC0B268 (Unity) <lambda_580fa16bd23d18c3e466e7b58feca0a1>::operator()
-0x00007FFB6BC05558 (Unity) TransferScriptingObject<StreamedBinaryRead>
-0x00007FFB6BC06CD3 (Unity) SerializableManagedRefTransfer::TransferScriptingObjectWithSerializedRefSupport<StreamedBinaryRead>
-0x00007FFB6BC1C756 (Unity) SerializableManagedRefTransfer::TransferBinaryInstanceOnly
-0x00007FFB6BBEFAAE (Unity) SerializableManagedRefTransfer::RestoreBackupImpl<SerializableManagedRefBackupGenerator>
-0x00007FFB6BBEF8D5 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
-0x00007FFB6BCCFDCC (Unity) SerializableManagedRefsUtilities::RestoreBackups
-0x00007FFB6BC11744 (Unity) MonoManager::FinalizeReload
-0x00007FFB6D146ED5 (Unity) ScriptingInitializer::FinalizeReload
-0x00007FFB6D19688F (Unity) AssetImportWorkerClient::ReloadScriptingDomain
-0x00007FFB6D17028C (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
-0x00007FFB6D25414E (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007FFB6D2419DA (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007FFB6D242D44 (Unity) asio::detail::win_iocp_io_context::run
-0x00007FFB6D25276C (Unity) IOService::Run
-0x00007FFB6D19A906 (Unity) RunAssetImportWorkerClientV2
-0x00007FFB6D19A9CB (Unity) RunAssetImporterV2
-0x00007FFB6C9A6088 (Unity) Application::InitializeProject
-0x00007FFB6CFABD05 (Unity) UnityMain
-0x00007FF6DC3B2FBA (Unity) __scrt_common_main_seh
-0x00007FFC3055E8D7 (KERNEL32) BaseThreadInitThunk
-0x00007FFC3153BF2C (ntdll) RtlUserThreadStart
-
-========== END OF STACKTRACE ===========
-
-A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
- * C:/Users/ANDG-PCF/AppData/Local/Temp/Unity/Editor/Crashes
-=======
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (525ms)
-		LoadAssemblies (319ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (509ms)
+		LoadAssemblies (303ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (256ms)
-			TypeCache.Refresh (190ms)
-				TypeCache.ScanAssembly (165ms)
-			BuildScriptInfoCaches (52ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (796ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (172ms)
+			BuildScriptInfoCaches (42ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (723ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (639ms)
+		SetupLoadedEditorAssemblies (587ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (383ms)
-			ProcessInitializeOnLoadMethodAttributes (116ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 2.72 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.64 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 Unloading 224 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7110 unused Assets / (2.6 MB). Loaded Objects now: 7804.
-Memory consumption went from 160.6 MB to 158.1 MB.
-Total: 7.226333 ms (FindLiveObjects: 0.499125 ms CreateObjectMapping: 0.222416 ms MarkObjects: 4.463000 ms  DeleteObjects: 2.041250 ms)
+Unloading 7114 unused Assets / (4.6 MB). Loaded Objects now: 7806.
+Memory consumption went from 160.8 MB to 156.2 MB.
+Total: 8.047417 ms (FindLiveObjects: 1.120625 ms CreateObjectMapping: 0.271292 ms MarkObjects: 4.044666 ms  DeleteObjects: 2.610125 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1892381.077432 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb9e306bff0650af861908fdc988c353') in 0.421538291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.589887 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '054e7a42bb8d29372b1a14075178ec82') in 0.030072875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
-
-========================================================================
-Received Import Request.
-  Time since last request: 153.843878 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e689bbe6ddee442e8f5d5c8a51538c0') in 0.168779875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.030629 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f595a9f5b841a6e97bb6915ec6f09807') in 0.012038458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.647389 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3eb7bc8a26054b75a509bfe08db5b829') in 0.044897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.332752 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce5e47a964e36e50fdbbc59d134a2f49') in 0.033050709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+  Time since last request: 192318.220852 seconds.
+  path: Assets/Prefabs/Recipes/Burger.asset
+  artifactKey: Guid(797cdb74a30b442e0929798ee18fd9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Recipes/Burger.asset using Guid(797cdb74a30b442e0929798ee18fd9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '279fa2d86569a9f498c25bc43007e56d') in 0.023741958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
 
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x33df9f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.961 seconds
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.15 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.885 seconds
-Domain Reload Profiling: 1849ms
-	BeginReloadAssembly (484ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (70ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (258ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (421ms)
-		LoadAssemblies (289ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (22ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (153ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (886ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (696ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (465ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.26 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7110 unused Assets / (3.2 MB). Loaded Objects now: 7855.
-Memory consumption went from 228.9 MB to 225.7 MB.
-Total: 8.696041 ms (FindLiveObjects: 0.532375 ms CreateObjectMapping: 0.212750 ms MarkObjects: 5.879333 ms  DeleteObjects: 2.071167 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 17.040253 seconds.
-  path: Assets/Models/Food Models/completed salad.glb
-  artifactKey: Guid(c931d2a4b4f1e4aee92f71a78450c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food Models/completed salad.glb using Guid(c931d2a4b4f1e4aee92f71a78450c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0477a25996e279e859f2c7a2a613b297') in 0.571901584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.746252 seconds.
-  path: Assets/Models/Food Models/flat lettuce.glb
-  artifactKey: Guid(2f664deafbb7b40ca9b6c75de4220ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food Models/flat lettuce.glb using Guid(2f664deafbb7b40ca9b6c75de4220ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e9d8d7eabdb631e06db612afe40ec47') in 0.046169166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Models/Food Models/raw lettuce.glb
-  artifactKey: Guid(b0a1811970c6d468ebd88ca83b52b66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Food Models/raw lettuce.glb using Guid(b0a1811970c6d468ebd88ca83b52b66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29aaef978aa1ef7946172d4ae3bb9715') in 0.023238292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16b4ff000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.685 seconds
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.73 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.836 seconds
-Domain Reload Profiling: 1524ms
-	BeginReloadAssembly (266ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (44ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (127ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (365ms)
-		LoadAssemblies (239ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (167ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (145ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (837ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (631ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (372ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.76 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7109 unused Assets / (3.2 MB). Loaded Objects now: 7918.
-Memory consumption went from 204.1 MB to 200.9 MB.
-Total: 6.261083 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.180583 ms MarkObjects: 4.201667 ms  DeleteObjects: 1.557209 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x337a87000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.722 seconds
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.62 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.835 seconds
-Domain Reload Profiling: 1559ms
-	BeginReloadAssembly (243ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (137ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (416ms)
-		LoadAssemblies (293ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (168ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (143ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (835ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (665ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (410ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 4.49 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7109 unused Assets / (3.2 MB). Loaded Objects now: 7921.
-Memory consumption went from 203.8 MB to 200.5 MB.
-Total: 6.206458 ms (FindLiveObjects: 0.331167 ms CreateObjectMapping: 0.186875 ms MarkObjects: 4.059625 ms  DeleteObjects: 1.628416 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.02 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.51 ms.
+Refreshing native plugins compatible for Editor in 10.05 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 7921.
-Memory consumption went from 149.7 MB to 147.4 MB.
-Total: 59.057792 ms (FindLiveObjects: 6.179833 ms CreateObjectMapping: 0.155042 ms MarkObjects: 50.423625 ms  DeleteObjects: 2.298833 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16b243000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.683 seconds
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.30 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.866 seconds
-Domain Reload Profiling: 1551ms
-	BeginReloadAssembly (253ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (157ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (375ms)
-		LoadAssemblies (233ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (161ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (866ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (646ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.79 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7109 unused Assets / (3.2 MB). Loaded Objects now: 7924.
-Memory consumption went from 203.8 MB to 200.6 MB.
-Total: 7.207208 ms (FindLiveObjects: 0.406542 ms CreateObjectMapping: 0.248166 ms MarkObjects: 4.704459 ms  DeleteObjects: 1.847875 ms)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 7809.
+Memory consumption went from 124.3 MB to 122.1 MB.
+Total: 45.109708 ms (FindLiveObjects: 0.328041 ms CreateObjectMapping: 0.108750 ms MarkObjects: 41.864375 ms  DeleteObjects: 2.808041 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 268.021376 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28b6b45b4ce1f776a28ab0f142cbc104') in 0.457766042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+  Time since last request: 91.949917 seconds.
+  path: Assets/Prefabs/Recipes/Salad.asset
+  artifactKey: Guid(43cdb086d084c4334934212b0eb54494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Recipes/Salad.asset using Guid(43cdb086d084c4334934212b0eb54494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6355d418dd1257c21f0941d469bad1e') in 0.004110917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.54 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 8065.
-Memory consumption went from 157.5 MB to 155.2 MB.
-Total: 7.881666 ms (FindLiveObjects: 0.324084 ms CreateObjectMapping: 0.101500 ms MarkObjects: 7.097458 ms  DeleteObjects: 0.358208 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 24.518918 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eae3b70e10c2fc47590660bc8ccf2074') in 0.045212583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.897005 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f87a19679f2e1ef516c31399978b251') in 0.0726325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.163022 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f900c1844f025a382cc74fbb2f30df9c') in 0.066993667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
-
->>>>>>> master

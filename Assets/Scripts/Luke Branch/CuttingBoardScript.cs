@@ -1,14 +1,17 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 public class CuttingBoardScript : MonoBehaviour
 {
 
     public Transform snapPoint;
 
+    private XRSocketInteractor socket;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        socket = GetComponent<XRSocketInteractor>();
     }
 
     // Update is called once per frame
@@ -17,22 +20,19 @@ public class CuttingBoardScript : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        var lettuceScript = other.gameObject.GetComponent<UnpreppedLettuce>();
+    public void IngredientOnBoard(){
+        var lettuceScript = socket.firstInteractableSelected.transform.root.GetComponent<UnpreppedLettuce>();
 
         if(lettuceScript == null){
             return;
         }
 
+        print("Lettuce on board");
         lettuceScript.isOnCuttingBoard = true;
-
-        other.gameObject.transform.position = snapPoint.transform.position;
     }
 
-    void OnTriggerExit(Collider other)
-    {
-        var lettuceScript = other.gameObject.GetComponent<UnpreppedLettuce>();
+        public void IngredientLeavesBoard(){
+        var lettuceScript = socket.firstInteractableSelected.transform.root.GetComponent<UnpreppedLettuce>();
 
         if(lettuceScript == null){
             return;

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 419553353838721143}
   - component: {fileID: 3314336917546021467}
   - component: {fileID: 6729627688390531489}
-  - component: {fileID: -4015626592051083373}
+  - component: {fileID: -5065862941003009375}
   m_Layer: 6
   m_Name: Prepped Lettuce
   m_TagString: Untagged
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 0
---- !u!114 &-4015626592051083373
+--- !u!114 &-5065862941003009375
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,10 +193,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5647803213451184313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac162ef25c06f4e0782a7815386dc705, type: 3}
+  m_Script: {fileID: 11500000, guid: 73b66c98711e647aa9772142abdb9877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prepType: 0
   platedPrefab: {fileID: 8330671821296388330, guid: e1af04e3ca2f54ba499f9addb4fc5f48, type: 3}
+  ingredientType: 0
 --- !u!1001 &5699788577424978183
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -6,35 +6,54 @@ using UnityEngine;
 public class PlateScript : MonoBehaviour
 {
 
-    private Dictionary<IngredientType, int> currentIngredients = new Dictionary<IngredientType, int>();
+    private Dictionary<PreppedIngredientType, int> currentIngredients = new Dictionary<PreppedIngredientType, int>();
+
+    private float modelHeight;
 
     public Transform foodModelTransform;
+
+    public List<RecipeObject> recipeList;
 
 
     void OnTriggerEnter(Collider other)
     {
         //check to see if whatever is overlapping has the lettuce script
-        PreppedLettuce lettuceScript = other.transform.root.GetComponent<PreppedLettuce>();
+        PreppedIngredients preppedScript = other.transform.root.GetComponent<PreppedIngredients>();
+        
 
         // if not, then ignore the item
-        if(lettuceScript == null){
+        if(preppedScript == null){
             return;
         }
 
-        if(!currentIngredients.ContainsKey(lettuceScript.GetType())){
-            currentIngredients[lettuceScript.GetType()] = 0;
+        if(!currentIngredients.ContainsKey(preppedScript.GetIngredientType())){
+            currentIngredients[preppedScript.GetIngredientType()] = 0;
         }
 
         //add one lettuce to the plate
-        currentIngredients[lettuceScript.GetType()] += 1;
+        currentIngredients[preppedScript.GetIngredientType()] += 1;
 
-        Instantiate(lettuceScript.platedPrefab, foodModelTransform.position,  Quaternion.AngleAxis(Random.Range(0,360f), Vector3.up),foodModelTransform);
+        Instantiate(preppedScript.platedPrefab, foodModelTransform.position + Vector3.up * modelHeight,  Quaternion.AngleAxis(Random.Range(0,360f), Vector3.up),foodModelTransform);
+
+        CheckFinishedRecipe();
+
+        modelHeight += preppedScript.platedHeight;
 
         //destroy the prepped lettuce
         Destroy(other.gameObject);
     }
 
-    public Dictionary<IngredientType, int> GetPlatedIngredients(){
+    private void CheckFinishedRecipe()
+    {
+        foreach(RecipeObject recipe in recipeList){
+            if(recipe.Equals(currentIngredients)){
+                Instantiate(recipe.finishedModel, transform.position, Quaternion.identity);
+                Destroy(gameObject);
+            }
+        }
+    }
+
+    public Dictionary<PreppedIngredientType, int> GetPlatedIngredients(){
         return currentIngredients;
     }
 }

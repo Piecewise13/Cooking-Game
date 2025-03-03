@@ -1,16 +1,15 @@
 using UnityEngine;
 
-public class PreppedIngredients : IngredientParent
+public class PreppedIngredients : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public GameObject platedPrefab;
+    [SerializeField] protected PreppedIngredientType ingredientType;
+
+    public float platedHeight;
+
+
+     public PreppedIngredientType GetIngredientType(){
+        return ingredientType;
     }
 }
