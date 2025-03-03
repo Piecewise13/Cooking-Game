@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5008054842540830846}
   - component: {fileID: 2879928481778525008}
   - component: {fileID: 5152395298587245532}
+  - component: {fileID: -3775449346650138480}
   m_Layer: 0
   m_Name: Finished Salad
-  m_TagString: Untagged
+  m_TagString: FinishedRecipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -183,6 +184,19 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 0
+--- !u!114 &-3775449346650138480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272897715001427854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9ff00fef320483c83dbc1f06d29259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recipe: 1
 --- !u!1001 &2315993326617649762
 PrefabInstance:
   m_ObjectHideFlags: 0
