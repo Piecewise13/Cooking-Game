@@ -27,5 +27,8 @@ public class KnifeScript : MonoBehaviour
         }
 
         lettuceScript.ChopIngredient();
+        //AudioSource source = gameObject.GetComponent<AudioSource>();
+        //source.Play()
+
     }
 }

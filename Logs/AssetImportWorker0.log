@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49940
+50356
 -job-worker-count
 1
 -background-job-worker-count
@@ -66,12 +66,12 @@ Successfully changed project path to: /Users/quyenv/Documents/GitHub/Cooking-Gam
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704701423104]  Target information:
+Player connection [140704372170240]  Target information:
 
-Player connection [140704701423104]  * "[IP] 10.37.197.72 [Port] 0 [Flags] 2 [Guid] 441537952 [EditorId] 441537952 [Version] 1048832 [Id] OSXEditor(0,DN0a25c548.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [140704372170240]  * "[IP] 10.29.164.56 [Port] 0 [Flags] 2 [Guid] 992741771 [EditorId] 992741771 [Version] 1048832 [Id] OSXEditor(0,DNa1da438.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [140704701423104] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140704701423104] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704372170240] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704372170240] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -82,8 +82,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 251.57 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 28.03 ms.
+Refreshing native plugins compatible for Editor in 81.67 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 68.54 ms.
 Initialize engine version: 6000.0.32f1 (b2e806cf271c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/quyenv/Documents/GitHub/Cooking-Game/Assets
@@ -97,46 +97,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56574
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56387
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004687 seconds.
-- Loaded All Assemblies, in  3.860 seconds
+Registered in 0.037924 seconds.
+- Loaded All Assemblies, in  4.468 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 609 ms
+Android Extension - Scanning For ADB Devices 814 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.251 seconds
-Domain Reload Profiling: 8118ms
-	BeginReloadAssembly (1253ms)
+- Finished resetting the current domain, in  4.865 seconds
+Domain Reload Profiling: 9333ms
+	BeginReloadAssembly (1351ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (453ms)
-	RebuildNativeTypeToScriptingClass (174ms)
-	initialDomainReloadingComplete (442ms)
-	LoadAllAssembliesAndSetupDomain (1536ms)
-		LoadAssemblies (1252ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (478ms)
+	RebuildNativeTypeToScriptingClass (162ms)
+	initialDomainReloadingComplete (474ms)
+	LoadAllAssembliesAndSetupDomain (2000ms)
+		LoadAssemblies (1366ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1504ms)
-			TypeCache.Refresh (1485ms)
-				TypeCache.ScanAssembly (1387ms)
+		AnalyzeDomain (1955ms)
+			TypeCache.Refresh (1937ms)
+				TypeCache.ScanAssembly (1795ms)
 			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (4259ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (4868ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3862ms)
+		SetupLoadedEditorAssemblies (4343ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1508ms)
-			SetLoadedEditorAssemblies (22ms)
-			BeforeProcessingInitializeOnLoad (525ms)
-			ProcessInitializeOnLoadAttributes (1412ms)
-			ProcessInitializeOnLoadMethodAttributes (394ms)
+			InitializePlatformSupportModulesInManaged (1717ms)
+			SetLoadedEditorAssemblies (33ms)
+			BeforeProcessingInitializeOnLoad (631ms)
+			ProcessInitializeOnLoadAttributes (1540ms)
+			ProcessInitializeOnLoadMethodAttributes (421ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,10 +145,10 @@ Domain Reload Profiling: 8118ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  6.801 seconds
+- Loaded All Assemblies, in  9.565 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 29.17 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 74.24 ms, found 9 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -165,141 +165,129 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  9.588 seconds
-Domain Reload Profiling: 16394ms
-	BeginReloadAssembly (1270ms)
+- Finished resetting the current domain, in 12.125 seconds
+Domain Reload Profiling: 21688ms
+	BeginReloadAssembly (1599ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (55ms)
+		DisableScriptedObjects (53ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (410ms)
-	RebuildCommonClasses (328ms)
-	RebuildNativeTypeToScriptingClass (93ms)
-	initialDomainReloadingComplete (204ms)
-	LoadAllAssembliesAndSetupDomain (4903ms)
-		LoadAssemblies (2849ms)
+		CreateAndSetChildDomain (441ms)
+	RebuildCommonClasses (437ms)
+	RebuildNativeTypeToScriptingClass (194ms)
+	initialDomainReloadingComplete (342ms)
+	LoadAllAssembliesAndSetupDomain (6991ms)
+		LoadAssemblies (3995ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2626ms)
-			TypeCache.Refresh (2024ms)
-				TypeCache.ScanAssembly (1888ms)
-			BuildScriptInfoCaches (437ms)
-			ResolveRequiredComponents (130ms)
-	FinalizeReload (9595ms)
+		AnalyzeDomain (3763ms)
+			TypeCache.Refresh (2914ms)
+				TypeCache.ScanAssembly (2593ms)
+			BuildScriptInfoCaches (666ms)
+			ResolveRequiredComponents (158ms)
+	FinalizeReload (12127ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (7931ms)
+		SetupLoadedEditorAssemblies (10311ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (113ms)
-			SetLoadedEditorAssemblies (66ms)
-			BeforeProcessingInitializeOnLoad (1526ms)
-			ProcessInitializeOnLoadAttributes (4845ms)
-			ProcessInitializeOnLoadMethodAttributes (1376ms)
+			InitializePlatformSupportModulesInManaged (119ms)
+			SetLoadedEditorAssemblies (28ms)
+			BeforeProcessingInitializeOnLoad (2096ms)
+			ProcessInitializeOnLoadAttributes (4674ms)
+			ProcessInitializeOnLoadMethodAttributes (3390ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.56 seconds
-Refreshing native plugins compatible for Editor in 53.84 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 1.05 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.61 seconds
+Refreshing native plugins compatible for Editor in 106.69 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 2.05 ms.
 Unloading 224 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7110 unused Assets / (2.1 MB). Loaded Objects now: 7805.
-Memory consumption went from 164.0 MB to 161.8 MB.
-Total: 79.592313 ms (FindLiveObjects: 11.639209 ms CreateObjectMapping: 4.315204 ms MarkObjects: 54.478734 ms  DeleteObjects: 9.155841 ms)
+Unloading 7110 unused Assets / (2.2 MB). Loaded Objects now: 7805.
+Memory consumption went from 163.6 MB to 161.4 MB.
+Total: 100.118961 ms (FindLiveObjects: 8.628423 ms CreateObjectMapping: 3.934492 ms MarkObjects: 62.781053 ms  DeleteObjects: 24.770559 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4528.287634 seconds.
-  path: Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab
-  artifactKey: Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Unprepped Lettuce.prefab using Guid(3e2cc3a076360412194c87022185d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5269a84cf848d08b15ef9f149b3b39f7') in 5.933586852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+  Time since last request: 11144.056766 seconds.
+  path: Assets/Scripts/Luke Branch/Knife/KnifeScript.cs
+  artifactKey: Guid(c5d5f7c922bf24d58946513fccae3888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Luke Branch/Knife/KnifeScript.cs using Guid(c5d5f7c922bf24d58946513fccae3888) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '884d875929831bacdafd481605d0f253') in 0.074328923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 11.042 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 213.42 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 15.602 seconds
+Domain Reload Profiling: 26685ms
+	BeginReloadAssembly (3253ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (395ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1081ms)
+	RebuildCommonClasses (502ms)
+	RebuildNativeTypeToScriptingClass (133ms)
+	initialDomainReloadingComplete (267ms)
+	LoadAllAssembliesAndSetupDomain (6927ms)
+		LoadAssemblies (5007ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3077ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (2603ms)
+			ResolveRequiredComponents (198ms)
+	FinalizeReload (15605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (12158ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (133ms)
+			SetLoadedEditorAssemblies (115ms)
+			BeforeProcessingInitializeOnLoad (2599ms)
+			ProcessInitializeOnLoadAttributes (7357ms)
+			ProcessInitializeOnLoadMethodAttributes (1919ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (9ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (152ms)
+Refreshing native plugins compatible for Editor in 56.63 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 4.18 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7109 unused Assets / (7.6 MB). Loaded Objects now: 7823.
+Memory consumption went from 192.8 MB to 185.2 MB.
+Total: 233.673908 ms (FindLiveObjects: 145.755925 ms CreateObjectMapping: 2.811287 ms MarkObjects: 54.969974 ms  DeleteObjects: 30.132965 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Prefabs/Lettuce
-  artifactKey: Guid(5c41fe7bd947540bda21a377893a6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce using Guid(5c41fe7bd947540bda21a377893a6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a62adb2dd55f871015948adee11b843') in 0.002045969 seconds
+  Time since last request: 500.366138 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(b54d7382fbcea4f40b088023cfecc766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(b54d7382fbcea4f40b088023cfecc766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccee866ac7c07b9ff35f394615ff82e6') in 0.101535031 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/Lettuce/Prepped Lettuce.prefab
-  artifactKey: Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Prepped Lettuce.prefab using Guid(d95031fc4dbd9442c8a89d8d0f84ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9a6dd14f6920a45f4f1e3e2442c085b') in 0.136986459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003111 seconds.
-  path: Assets/Prefabs/Lettuce/Plated Lettuce.prefab
-  artifactKey: Guid(e1af04e3ca2f54ba499f9addb4fc5f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lettuce/Plated Lettuce.prefab using Guid(e1af04e3ca2f54ba499f9addb4fc5f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'beee444cb56c67e04b50bedc3799fb77') in 0.035651603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.431332 seconds.
-  path: Assets/Materials/Cutting Board.mat
-  artifactKey: Guid(e0b79131ece5a4d468a1ea6cd178e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cutting Board.mat using Guid(e0b79131ece5a4d468a1ea6cd178e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08824fa997a58ca0feb92398b7a75d56') in 0.202382737 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Materials/Wall Color.mat
-  artifactKey: Guid(b92bae66989b94654be9c50e78c6b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wall Color.mat using Guid(b92bae66989b94654be9c50e78c6b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f12af2e59dee4c5613e008acfeb2193') in 0.049942257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.458192 seconds.
-  path: Assets/Models/Stove.glb
-  artifactKey: Guid(638ef4eabeb87da4e8f82374fe8154aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Stove.glb using Guid(638ef4eabeb87da4e8f82374fe8154aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1084e14392aff2dd229cc83f34e44cff') in 0.314477495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.128429 seconds.
-  path: Assets/Audio/344131__thebuilder15__sword-slice.wav
-  artifactKey: Guid(26d3b2f4450814bc49776c1a45a3a2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/344131__thebuilder15__sword-slice.wav using Guid(26d3b2f4450814bc49776c1a45a3a2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34b03a81bfbe4159b78bc6746935d7fe') in 0.214835359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.652979 seconds.
-  path: Assets/Audio/knife sounds.wav
-  artifactKey: Guid(26d3b2f4450814bc49776c1a45a3a2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/knife sounds.wav using Guid(26d3b2f4450814bc49776c1a45a3a2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3d112e4fb11bd901380ee41b0b65792') in 0.038094629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.034629 seconds.
-  path: Assets/Audio/698399__ninoing__frying-sound.wav
-  artifactKey: Guid(6b211dfa588f942548b0937546a74ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/698399__ninoing__frying-sound.wav using Guid(6b211dfa588f942548b0937546a74ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b08da73fd88817433c84d295dbe853b6') in 0.112779707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.456241 seconds.
-  path: Assets/Audio/frying sound.wav
-  artifactKey: Guid(6b211dfa588f942548b0937546a74ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/frying sound.wav using Guid(6b211dfa588f942548b0937546a74ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e922fbcfa6cd5b0e9ecd40daba8a8cc3') in 0.075822575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.825264 seconds.
-  path: Assets/Audio/knife sound.wav
-  artifactKey: Guid(26d3b2f4450814bc49776c1a45a3a2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/knife sound.wav using Guid(26d3b2f4450814bc49776c1a45a3a2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb99f224941ab59561c1a314cfe8dbbb') in 0.041815676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 24.299984 seconds.
+  path: Assets/Prefabs/Knife.prefab
+  artifactKey: Guid(b2a7eb95d723b489388d0b2085664036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Knife.prefab using Guid(b2a7eb95d723b489388d0b2085664036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc49aecb4059ccc2d7bff65385808b3b') in 4.824837681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
 
