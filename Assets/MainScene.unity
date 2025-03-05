@@ -774,7 +774,6 @@ GameObject:
   - component: {fileID: 927310830}
   - component: {fileID: 927310829}
   - component: {fileID: 927310828}
-  - component: {fileID: 927310827}
   m_Layer: 0
   m_Name: Turn In Window
   m_TagString: Untagged
@@ -782,18 +781,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &927310827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927310826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2524f1b9f54714ceeadc78f0daf9fba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &927310828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1071,7 +1058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1056925935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2080,6 +2067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Unprepped Lettuce
       objectReference: {fileID: 0}
+    - target: {fileID: 6249223712104813239, guid: 3e2cc3a076360412194c87022185d99a, type: 3}
+      propertyPath: poofParticle
+      value: 
+      objectReference: {fileID: 932037456934549907, guid: 270a427ec046b4b10abe923a7f89325f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
