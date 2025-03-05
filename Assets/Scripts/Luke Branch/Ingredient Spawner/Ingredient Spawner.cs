@@ -7,6 +7,8 @@ public class IngredientSpawner : MonoBehaviour
 
     public BoxCollider spawnBox;
 
+    public float xVeloMax, yVeloMax;
+
     public float minSpawnTime, maxSpawnTime;
 
     private float spawnDelay;
@@ -17,26 +19,29 @@ public class IngredientSpawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(spawnTimer + spawnDelay < Time.time){
+        if (spawnTimer + spawnDelay < Time.time)
+        {
             SpawnIngredient();
         }
     }
 
-    void SpawnIngredient(){
+    void SpawnIngredient()
+    {
         Vector3 spawnPosition = RandomPointInBounds(spawnBox.bounds);
 
         GameObject ingredient = Instantiate(ingredients, spawnPosition, Quaternion.identity);
+        ingredient.getComponent<Rigidbody>.velocity = RandomStartVelocity();
 
         spawnTimer = Time.time;
 
         spawnDelay = Random.Range(minSpawnTime, maxSpawnTime);
-        
+
     }
 
     void OnTriggerEnter(Collider other)
@@ -44,11 +49,17 @@ public class IngredientSpawner : MonoBehaviour
         Destroy(other);
     }
 
-    public static Vector3 RandomPointInBounds(Bounds bounds) {
+    public static Vector3 RandomPointInBounds(Bounds bounds)
+    {
         return new Vector3(
             Random.Range(bounds.min.x, bounds.max.x),
             Random.Range(bounds.min.y, bounds.max.y),
             Random.Range(bounds.min.z, bounds.max.z)
-    );
-}
+        );
+    }
+
+    public static Vector3 RandomStartVelocity()
+    {
+        return new Vector3(Random.Range(0, xVeloMax), Random.Range(0, yVeloMax), 0)
+    }
 }
