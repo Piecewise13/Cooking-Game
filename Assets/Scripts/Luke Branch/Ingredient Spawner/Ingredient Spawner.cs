@@ -7,7 +7,7 @@ public class IngredientSpawner : MonoBehaviour
 
     public BoxCollider spawnBox;
 
-    public float xVeloMax, yVeloMax;
+    public static float xVeloMax, yVeloMax;
 
     public float minSpawnTime, maxSpawnTime;
 
@@ -36,7 +36,7 @@ public class IngredientSpawner : MonoBehaviour
         Vector3 spawnPosition = RandomPointInBounds(spawnBox.bounds);
 
         GameObject ingredient = Instantiate(ingredients, spawnPosition, Quaternion.identity);
-        ingredient.getComponent<Rigidbody>.velocity = RandomStartVelocity();
+        ingredient.GetComponent<Rigidbody>().linearVelocity = RandomStartVelocity();
 
         spawnTimer = Time.time;
 
@@ -60,6 +60,6 @@ public class IngredientSpawner : MonoBehaviour
 
     public static Vector3 RandomStartVelocity()
     {
-        return new Vector3(Random.Range(0, xVeloMax), Random.Range(0, yVeloMax), 0)
+        return new Vector3(Random.Range(0, xVeloMax), Random.Range(0, yVeloMax), 0);
     }
 }
