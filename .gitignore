@@ -60,6 +60,7 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
+UserSettings/EditorUserSettings.asset
 *.unitypackage.meta
 *.app
 
@@ -72,3 +73,5 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+UserSettings/Layouts/default-6000.dwlt
+*.log

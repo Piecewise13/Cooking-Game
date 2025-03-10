@@ -15,3 +15,4 @@ MonoBehaviour:
   recipeIngredientList:
   - ingredientType: 0
     count: 2
+  finishedModel: {fileID: 1272897715001427854, guid: b6692c0c086974c5c8d397b6604d9f22, type: 3}

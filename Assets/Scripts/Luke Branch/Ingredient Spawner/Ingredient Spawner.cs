@@ -9,7 +9,7 @@ public class IngredientSpawner : MonoBehaviour
 
     public float minSpawnTime, maxSpawnTime;
 
-    private  float spawnDelay;
+    private float spawnDelay;
 
     private float spawnTimer;
 

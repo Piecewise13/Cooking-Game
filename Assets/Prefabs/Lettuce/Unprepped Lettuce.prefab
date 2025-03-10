@@ -79,7 +79,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d37722f5f9ba4a2daeb035efe9c4035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  choppedLettuce: {fileID: 5647803213451184313, guid: d95031fc4dbd9442c8a89d8d0f84ad87, type: 3}
+  preppedPrefab: {fileID: 5647803213451184313, guid: d95031fc4dbd9442c8a89d8d0f84ad87, type: 3}
   health: 3
   isOnCuttingBoard: 0
 --- !u!54 &637552663590718244
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -242,6 +242,10 @@ PrefabInstance:
     - target: {fileID: -2231267651646019376, guid: b0a1811970c6d468ebd88ca83b52b66e, type: 3}
       propertyPath: m_Name
       value: raw lettuce
+      objectReference: {fileID: 0}
+    - target: {fileID: -2231267651646019376, guid: b0a1811970c6d468ebd88ca83b52b66e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8036793136440048442, guid: b0a1811970c6d468ebd88ca83b52b66e, type: 3}
       propertyPath: m_LocalScale.x

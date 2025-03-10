@@ -1,16 +1,12 @@
 using UnityEngine;
 
-public class PreppedLettuce : MonoBehaviour
+public class PreppedLettuce : PreppedIngredients
 {
-
-    private IngredientType ingredientType = IngredientType.LETTUCE; 
-
-    public GameObject platedPrefab;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-           
+        ingredientType = PreppedIngredientType.LETTUCE; 
     }
 
     // Update is called once per frame
@@ -19,7 +15,5 @@ public class PreppedLettuce : MonoBehaviour
         
     }
 
-    public IngredientType GetType(){
-        return ingredientType;
-    }
+
 }
