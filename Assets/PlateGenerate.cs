@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
@@ -23,10 +24,12 @@ public class PlateGenerate : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        print("entered trigger");
         XRBaseInteractor interactor = other.GetComponentInParent<XRBaseInteractor>();
         if (interactor != null)
         {
             // Subscribe to the interactor's selectEntered event.
+            print("listening");
             interactor.selectEntered.AddListener(HandleSelectEntered);
             currentInteractor = interactor;
         }
@@ -47,6 +50,7 @@ public class PlateGenerate : MonoBehaviour
     // Called when the select (grab) action is performed.
     private void HandleSelectEntered(SelectEnterEventArgs args)
     {
+        print("select entered");
         if (args.interactorObject is XRBaseInteractor baseInteractor)
         {
             SpawnPlate(baseInteractor);

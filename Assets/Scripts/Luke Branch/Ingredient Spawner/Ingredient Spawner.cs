@@ -7,7 +7,7 @@ public class IngredientSpawner : MonoBehaviour
 
     public BoxCollider spawnBox;
 
-    public float minSpawnTime, maxSpawnTime, xVeloMax, yVeloMax;
+    public float minSpawnTime, maxSpawnTime, xVeloMax, yVeloMax, xVeloMin, yVeloMin;
 
     private float spawnDelay;
 
@@ -49,7 +49,7 @@ public class IngredientSpawner : MonoBehaviour
 
     Vector3 RandomStartVelocity()
     {
-        return new Vector3(Random.Range(-xVeloMax, xVeloMax), Random.Range(0, yVeloMax), 0);
+        return new Vector3(Random.Range(-xVeloMax, xVeloMax), Random.Range(yVeloMin, yVeloMax), 0);
     }
 
     public static Vector3 RandomPointInBounds(Bounds bounds)
