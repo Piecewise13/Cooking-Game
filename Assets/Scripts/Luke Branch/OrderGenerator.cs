@@ -27,6 +27,7 @@ public class OrderGenerator : MonoBehaviour
     void Start()
     {
         master = FindAnyObjectByType<GameMasterScript>();
+        GenerateRecipe(recipesToSpawn[0]);
     }
 
     // Update is called once per frame
