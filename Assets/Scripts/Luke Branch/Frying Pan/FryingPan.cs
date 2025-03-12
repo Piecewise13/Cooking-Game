@@ -24,7 +24,6 @@ public class FryingPan : MonoBehaviour
     void Update()
     {
         if(cookingObject != null){
-                    print("out of asdfsocket");
             slider.value = cookingObject.PercentageCooked();
         }
     }
@@ -38,7 +37,6 @@ public class FryingPan : MonoBehaviour
 
             return;
         }
-                print("in of socket");
 
         cookingObject = ingredient;
         canvas.SetActive(true);

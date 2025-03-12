@@ -2,10 +2,13 @@ using UnityEngine;
 
 public class TurnInWindow : MonoBehaviour
 {
+
+    private GameMasterScript gameMaster;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        gameMaster = FindAnyObjectByType<GameMasterScript>();
     }
 
     // Update is called once per frame
@@ -24,10 +27,9 @@ public class TurnInWindow : MonoBehaviour
 
         FinishedRecipe recipe = rootTrans.GetComponent<FinishedRecipe>();
 
-        //TODO: make this hook up to the order generator to make this order completed
+        gameMaster.OrderTurnedIn(recipe);
 
         Destroy(rootTrans.gameObject);
-
         //TODO: Play sound effect
     }
 }

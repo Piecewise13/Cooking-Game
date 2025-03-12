@@ -8,10 +8,15 @@ using UnityEngine.UIElements;
 [CreateAssetMenu(fileName = "RecipeScript", menuName = "Scriptable Objects/RecipeScript")]
 public class RecipeObject : ScriptableObject
 {
-    
     public List<Ingredient> recipeIngredientList;
 
     public GameObject finishedModel;
+
+    public FINISHED_RECIPES recipeType;
+
+    public int score;
+
+    public float duration;
 
     public override bool Equals(object other)
     {
