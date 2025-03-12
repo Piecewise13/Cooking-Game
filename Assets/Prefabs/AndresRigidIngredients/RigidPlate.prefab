@@ -71,7 +71,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodModelTransform: {fileID: 2579170123239600937}
-  recipeList: []
+  recipeList:
+  - {fileID: 11400000, guid: 797cdb74a30b442e0929798ee18fd9bf, type: 2}
+  - {fileID: 11400000, guid: 43cdb086d084c4334934212b0eb54494, type: 2}
 --- !u!54 &8195761565039405643
 Rigidbody:
   m_ObjectHideFlags: 0
