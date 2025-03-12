@@ -6,6 +6,7 @@ macOS version:           Version 14.5 (Build 23F79)
 Darwin version:          23.5.0
 Architecture:            arm64
 Running under Rosetta:   NO
+<<<<<<< HEAD
 Available memory:        16384 MB
 Using pre-set license
 Pro License: YES
@@ -3533,3 +3534,9 @@ Memory consumption went from 200.1 MB to 197.8 MB.
 Total: 17.836083 ms (FindLiveObjects: 0.308667 ms CreateObjectMapping: 0.099958 ms MarkObjects: 17.030375 ms  DeleteObjects: 0.396792 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+=======
+Available memory:        65536 MB
+Assertion failed on expression: 'IsFileCreated(kWorkerLicensePath)'
+Assertion failed on expression: 'ok'
+Using pre-set license
+>>>>>>> 79cdb883e770b15e591de86f28f6a9a7cc15f8a7
