@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   preppedPrefab: {fileID: 5992284217719343989, guid: 853db3dfbd7f24877a66f9d23886e786, type: 3}
+  poofParticle: {fileID: 932037456934549907, guid: 270a427ec046b4b10abe923a7f89325f, type: 3}
   timeToCook: 10
 --- !u!54 &-4113680041707818033
 Rigidbody:

@@ -75,3 +75,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 UserSettings/Layouts/default-6000.dwlt
 *.log
+*.log

@@ -27,6 +27,9 @@ public interface Choppable {
 }
 
 public interface Cookable{
+
+    public float PercentageCooked();
+
     public void StartCooking();
 
     public void StopCooking();
