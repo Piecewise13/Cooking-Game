@@ -21,9 +21,10 @@ public class GameMasterScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        orderGenerator = FindAnyObjectByType<OrderGenerator>();
         currentOrders[FINISHED_RECIPES.BURGER] = new Queue<float>();
         currentOrders[FINISHED_RECIPES.SALAD] = new Queue<float>();
+        orderGenerator = FindAnyObjectByType<OrderGenerator>();
+
     }
 
     // Update is called once per frame
@@ -46,6 +47,10 @@ public class GameMasterScript : MonoBehaviour
     }
 
     public void OrderTurnedIn(FinishedRecipe recipe){
+
+        if(currentOrders[recipe.recipe].Count == 0){
+            return;
+        }
 
         currentOrders[recipe.recipe].Dequeue();
 
