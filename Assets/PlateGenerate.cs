@@ -1,76 +1,56 @@
 using System;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 public class PlateGenerate : MonoBehaviour
 {
-    // The prefab of the plate to spawn.
-    public GameObject platePrefab;
 
-    // Reference to the current interactor that entered the trigger.
-    private XRBaseInteractor currentInteractor;
+    public GameObject platePrefab;  // Prefab for the plate to spawn
+    private XRGrabInteractable grabInteractable;
 
-    // Called when another collider enters the trigger.
-    private void Start()
+    private void Awake()
     {
-       
-    }
-
-    private void Update()
-    {
-        
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        print("entered trigger");
-        XRBaseInteractor interactor = other.GetComponentInParent<XRBaseInteractor>();
-        if (interactor != null)
+        grabInteractable = GetComponent<XRGrabInteractable>();
+        if (grabInteractable != null)
         {
-            // Subscribe to the interactor's selectEntered event.
-            print("listening");
-            interactor.selectEntered.AddListener(HandleSelectEntered);
-            currentInteractor = interactor;
-        }
-    }
-
-    // Called when another collider exits the trigger.
-    private void OnTriggerExit(Collider other)
-    {
-        XRBaseInteractor interactor = other.GetComponentInParent<XRBaseInteractor>();
-        if (interactor != null && interactor == currentInteractor)
-        {
-            // Unsubscribe from the interactor's selectEntered event.
-            interactor.selectEntered.RemoveListener(HandleSelectEntered);
-            currentInteractor = null;
-        }
-    }
-
-    // Called when the select (grab) action is performed.
-    private void HandleSelectEntered(SelectEnterEventArgs args)
-    {
-        print("select entered");
-        if (args.interactorObject is XRBaseInteractor baseInteractor)
-        {
-            SpawnPlate(baseInteractor);
+            // Subscribe to grab event
+            grabInteractable.selectEntered.AddListener(HandleSelectEntered);
         }
         else
         {
-            Debug.LogWarning("Could not cast interactorObject to XRBaseInteractor.");
+            Debug.LogError("XRGrabInteractable component missing!");
         }
     }
 
-    // Instantiates the plate at the interactor's attach transform and parents it there.
+    private void OnDestroy()
+    {
+        if (grabInteractable != null)
+        {
+            grabInteractable.selectEntered.RemoveListener(HandleSelectEntered);
+        }
+    }
+
+    private void HandleSelectEntered(SelectEnterEventArgs args)
+    {
+        print("Select (grab) detected on plate stack.");
+        if (args.interactorObject is XRBaseInteractor interactor)
+        {
+            SpawnPlate(interactor);
+        }
+    }
+
     private void SpawnPlate(XRBaseInteractor interactor)
     {
+        print("Spawning new plate...");
         if (platePrefab != null && interactor.attachTransform != null)
         {
             GameObject newPlate = Instantiate(platePrefab, interactor.attachTransform.position, interactor.attachTransform.rotation);
         }
         else
         {
-            Debug.LogWarning("Plate prefab or interactor's attach transform is not assigned.");
+            Debug.LogWarning("Plate prefab or interactor attachTransform is not set.");
         }
     }
 }

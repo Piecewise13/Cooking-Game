@@ -1,9 +1,10 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class IngredientSpawner : MonoBehaviour
 {
 
-    [SerializeField] private GameObject ingredients;
+    [SerializeField] private List<GameObject> ingredients;
 
     public BoxCollider spawnBox;
 
@@ -33,7 +34,9 @@ public class IngredientSpawner : MonoBehaviour
     {
         Vector3 spawnPosition = RandomPointInBounds(spawnBox.bounds);
 
-        GameObject ingredient = Instantiate(ingredients, spawnPosition, Quaternion.identity);
+        int randomIndex = Random.Range(0, ingredients.Count);
+
+        GameObject ingredient = Instantiate(ingredients[randomIndex], spawnPosition, Quaternion.identity);
         ingredient.GetComponent<Rigidbody>().linearVelocity = RandomStartVelocity();
 
         spawnTimer = Time.time;
@@ -44,7 +47,10 @@ public class IngredientSpawner : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Destroy(other);
+        if (other.CompareTag("Ingredient"))  // Check if the object has the tag "ingredient"
+        {
+            Destroy(other.gameObject);
+        }
     }
 
     Vector3 RandomStartVelocity()
