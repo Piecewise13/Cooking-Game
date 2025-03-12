@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55322
+50346
 -job-worker-count
 1
 -background-job-worker-count
@@ -66,12 +66,12 @@ Successfully changed project path to: /Users/quyenv/Documents/GitHub/Cooking-Gam
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704601079296]  Target information:
+Player connection [140704644103680]  Target information:
 
-Player connection [140704601079296]  * "[IP] 10.36.101.22 [Port] 0 [Flags] 2 [Guid] 3013112969 [EditorId] 3013112969 [Version] 1048832 [Id] OSXEditor(0,DN0a246516.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [140704644103680]  * "[IP] 10.36.50.54 [Port] 0 [Flags] 2 [Guid] 3868340283 [EditorId] 3868340283 [Version] 1048832 [Id] OSXEditor(0,DN0a243236.SUNet) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [140704601079296] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140704601079296] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704644103680] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704644103680] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -82,8 +82,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 252.77 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 54.99 ms.
+Refreshing native plugins compatible for Editor in 62.52 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 45.04 ms.
 Initialize engine version: 6000.0.32f1 (b2e806cf271c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/quyenv/Documents/GitHub/Cooking-Game/Assets
@@ -97,46 +97,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56791
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56034
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.055492 seconds.
-- Loaded All Assemblies, in  2.474 seconds
+Registered in 0.007788 seconds.
+- Loaded All Assemblies, in  3.417 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 391 ms
+Android Extension - Scanning For ADB Devices 660 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.395 seconds
-Domain Reload Profiling: 5871ms
-	BeginReloadAssembly (939ms)
+- Finished resetting the current domain, in  3.954 seconds
+Domain Reload Profiling: 7372ms
+	BeginReloadAssembly (1154ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (4ms)
-	RebuildCommonClasses (302ms)
-	RebuildNativeTypeToScriptingClass (129ms)
-	initialDomainReloadingComplete (305ms)
-	LoadAllAssembliesAndSetupDomain (797ms)
-		LoadAssemblies (940ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (348ms)
+	RebuildNativeTypeToScriptingClass (119ms)
+	initialDomainReloadingComplete (345ms)
+	LoadAllAssembliesAndSetupDomain (1451ms)
+		LoadAssemblies (1160ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (782ms)
-			TypeCache.Refresh (775ms)
-				TypeCache.ScanAssembly (724ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (3398ms)
+		AnalyzeDomain (1428ms)
+			TypeCache.Refresh (1418ms)
+				TypeCache.ScanAssembly (1306ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (3956ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3136ms)
+		SetupLoadedEditorAssemblies (3594ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (830ms)
+			InitializePlatformSupportModulesInManaged (1467ms)
 			SetLoadedEditorAssemblies (28ms)
-			BeforeProcessingInitializeOnLoad (533ms)
-			ProcessInitializeOnLoadAttributes (1378ms)
-			ProcessInitializeOnLoadMethodAttributes (367ms)
+			BeforeProcessingInitializeOnLoad (409ms)
+			ProcessInitializeOnLoadAttributes (1332ms)
+			ProcessInitializeOnLoadMethodAttributes (358ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,10 +145,10 @@ Domain Reload Profiling: 5871ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  7.695 seconds
+- Loaded All Assemblies, in  8.574 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 93.62 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 159.50 ms, found 9 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -186,69 +186,109 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in 13.900 seconds
-Domain Reload Profiling: 21594ms
-	BeginReloadAssembly (1270ms)
+- Finished resetting the current domain, in 23.254 seconds
+Domain Reload Profiling: 31831ms
+	BeginReloadAssembly (1355ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (59ms)
+		DisableScriptedObjects (57ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (245ms)
-	RebuildCommonClasses (387ms)
-	RebuildNativeTypeToScriptingClass (96ms)
-	initialDomainReloadingComplete (230ms)
-	LoadAllAssembliesAndSetupDomain (5709ms)
-		LoadAssemblies (2876ms)
+		CreateAndSetChildDomain (409ms)
+	RebuildCommonClasses (421ms)
+	RebuildNativeTypeToScriptingClass (184ms)
+	initialDomainReloadingComplete (336ms)
+	LoadAllAssembliesAndSetupDomain (6276ms)
+		LoadAssemblies (3639ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (3491ms)
-			TypeCache.Refresh (2576ms)
-				TypeCache.ScanAssembly (2268ms)
-			BuildScriptInfoCaches (701ms)
-			ResolveRequiredComponents (185ms)
-	FinalizeReload (13903ms)
+		AnalyzeDomain (3216ms)
+			TypeCache.Refresh (2293ms)
+				TypeCache.ScanAssembly (2104ms)
+			BuildScriptInfoCaches (758ms)
+			ResolveRequiredComponents (141ms)
+	FinalizeReload (23258ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (12066ms)
+		SetupLoadedEditorAssemblies (20743ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (97ms)
-			SetLoadedEditorAssemblies (43ms)
-			BeforeProcessingInitializeOnLoad (1428ms)
-			ProcessInitializeOnLoadAttributes (9168ms)
-			ProcessInitializeOnLoadMethodAttributes (1324ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (196ms)
+			SetLoadedEditorAssemblies (81ms)
+			BeforeProcessingInitializeOnLoad (3267ms)
+			ProcessInitializeOnLoadAttributes (15588ms)
+			ProcessInitializeOnLoadMethodAttributes (1600ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (4ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.66 seconds
-Refreshing native plugins compatible for Editor in 67.64 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 1.00 ms.
+Launched and connected shader compiler UnityShaderCompiler after 1.37 seconds
+Refreshing native plugins compatible for Editor in 73.63 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 1.19 ms.
 Unloading 243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7133 unused Assets / (3.1 MB). Loaded Objects now: 7850.
-Memory consumption went from 172.6 MB to 169.5 MB.
-Total: 144.158448 ms (FindLiveObjects: 2.342214 ms CreateObjectMapping: 7.130331 ms MarkObjects: 113.594747 ms  DeleteObjects: 21.088316 ms)
+Unloading 7133 unused Assets / (2.1 MB). Loaded Objects now: 7850.
+Memory consumption went from 172.4 MB to 170.3 MB.
+Total: 314.463195 ms (FindLiveObjects: 134.581452 ms CreateObjectMapping: 3.053050 ms MarkObjects: 132.016438 ms  DeleteObjects: 44.808063 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 55810.176737 seconds.
-  path: Assets/Materials/awning.mat
-  artifactKey: Guid(b1adbe44c0e8a4e9db61faf7f555f45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/awning.mat using Guid(b1adbe44c0e8a4e9db61faf7f555f45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bc487552432a0c1952c3800f2a5234b') in 3.904588388 seconds
+  Time since last request: 13241.541597 seconds.
+  path: Assets/Models/scene models
+  artifactKey: Guid(f8a77b499421a402989edc7b4f3623b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/scene models using Guid(f8a77b499421a402989edc7b4f3623b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c46c8fab2a39c939138c8ffa7c2b4ff8') in 0.148702767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Models/scene models/cups.fbx
+  artifactKey: Guid(72899966fb0cd4fc3be293558e462fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/scene models/cups.fbx using Guid(72899966fb0cd4fc3be293558e462fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f4c5366ce7c3e59147b5e65724eb087') in 6.679096677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Models/scene models/fan.fbx
+  artifactKey: Guid(7c0254cc212764f308f894544d42a5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/scene models/fan.fbx using Guid(7c0254cc212764f308f894544d42a5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66232835c8ffe5cfc313616b5a9a080a') in 0.069107331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Models/scene models/salt+pepper.fbx
+  artifactKey: Guid(a56b555d013124b469305ba38b763412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/scene models/salt+pepper.fbx using Guid(a56b555d013124b469305ba38b763412) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a18a9abd50b6c252675505bad7b729b8') in 0.062568213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.995761 seconds.
+  path: Assets/Models/scene models/myfan.fbx
+  artifactKey: Guid(ee9ef3231e290405d87137b8fb746483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/scene models/myfan.fbx using Guid(ee9ef3231e290405d87137b8fb746483) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e67d68de5e4b3e9a8c7fb82cc041a41') in 0.282097162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.399385 seconds.
+  path: Packages/com.unity.render-pipelines.core/package.json
+  artifactKey: Guid(753d1ac2429a21a44ac5f937cbbb409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/package.json using Guid(753d1ac2429a21a44ac5f937cbbb409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d923f214d76b28b57c660eb77c99a14') in 0.068807381 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002524 seconds.
-  path: Assets/Materials/Turn In Window.mat
-  artifactKey: Guid(db116f3e3af254e4d95dbbdf794ac7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Turn In Window.mat using Guid(db116f3e3af254e4d95dbbdf794ac7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97de37e3752a5d0a0480c9f20763ad82') in 19.526834729 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 18.069725 seconds.
+  path: Assets/Models/scene models/myfantake2.fbx
+  artifactKey: Guid(a510d31eb08694af5a8b0206fa6afc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/scene models/myfantake2.fbx using Guid(a510d31eb08694af5a8b0206fa6afc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69e78cc0e88f558cce92e8cd3dfb2eb6') in 0.260019568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1371.252562 seconds.
-  path: Assets/Materials/awning.mat
-  artifactKey: Guid(b1adbe44c0e8a4e9db61faf7f555f45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/awning.mat using Guid(b1adbe44c0e8a4e9db61faf7f555f45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ac5f32084b3a0af8b3b0e4ea80a5c8f') in 0.214475818 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 1740.028829 seconds.
+  path: Assets/Models/scene models/myfantake3.fbx
+  artifactKey: Guid(c5021927ee8054905843152fd61c58a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/scene models/myfantake3.fbx using Guid(c5021927ee8054905843152fd61c58a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd58a204ad153169aba8a576cebb44b1f') in 0.443150783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
