@@ -9,11 +9,12 @@ public abstract class UnpreppedIngredient : MonoBehaviour
 
     protected virtual void IngredientPrepped(){
         //TODO: Play poof particle effect to hide the transition
+        Destroy(gameObject);
         Instantiate(preppedPrefab, gameObject.transform.position, gameObject.transform.rotation);
 
         Instantiate(poofParticle, gameObject.transform.position, gameObject.transform.rotation);
         
-        Destroy(gameObject);
+     
     }
 }
 
