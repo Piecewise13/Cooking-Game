@@ -29,6 +29,8 @@ public class TurnInWindow : MonoBehaviour
 
         gameMaster.OrderTurnedIn(recipe);
 
+        print("Recipe turned in");
+
         Destroy(rootTrans.gameObject);
         //TODO: Play sound effect
     }

@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
+using NUnit.Framework.Constraints;
 using Unity.Mathematics;
 using UnityEngine;
-using Random=UnityEngine.Random;
+using Random = UnityEngine.Random;
 
 public class OrderGenerator : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class OrderGenerator : MonoBehaviour
 
     public Transform spawnLocation;
 
+    private float lastSpawn;
+    private float nextSpawnTime;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -33,31 +37,29 @@ public class OrderGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < recipesToSpawn.Count; i++){
-            if(recipesToSpawn[i].lastSpawn + (recipesToSpawn[i].baseSpawnRate * 
-            difficultyCurve.Evaluate((float)master.currentDayNumber / (float)master.maxDayNumber)) 
-            < Time.time){
+        if (lastSpawn + nextSpawnTime < Time.time)
+        {
 
-                float p = Random.Range(0,1f);
-                if(p < recipesToSpawn[i].spawnPercentage){
-                    GenerateRecipe(recipesToSpawn[i]);
-                    
-                }
+            int rand = Random.Range(0, recipesToSpawn.Count);
 
-                RecipeSpawner spawner = recipesToSpawn[i];
-                spawner.lastSpawn = Time.time;
-                recipesToSpawn[i] = spawner;
+            float p = Random.Range(0f, 1f);
+            if (p < recipesToSpawn[rand].spawnPercentage)
+            {
+                GenerateRecipe(recipesToSpawn[rand]);
 
             }
+            nextSpawnTime = recipesToSpawn[rand].baseSpawnRate;
+            lastSpawn = Time.time;
         }
     }
 
 
-    void GenerateRecipe(RecipeSpawner recipe){
+    public void GenerateRecipe(RecipeSpawner recipe)
+    {
         //TODO: Create the object in the world that represents the order
 
         master.AddOrder(recipe.recipeObject);
-        
+
         var order = Instantiate(recipe.orderPrefab, spawnLocation.position + spawnLocation.forward * placementOffset, Quaternion.identity);
 
         Order orderData;
@@ -70,9 +72,12 @@ public class OrderGenerator : MonoBehaviour
 
     }
 
-    public void RemoveRecipe(FINISHED_RECIPES recipe){
-        foreach(var order in orderPapers){
-            if(order.recipe == recipe){
+    public void RemoveRecipe(FINISHED_RECIPES recipe)
+    {
+        foreach (var order in orderPapers)
+        {
+            if (order.recipe == recipe)
+            {
                 Destroy(order.orderObject);
                 orderPapers.Remove(order);
                 return;
@@ -82,19 +87,19 @@ public class OrderGenerator : MonoBehaviour
 }
 
 [Serializable]
-public struct RecipeSpawner{
+public struct RecipeSpawner
+{
     public RecipeObject recipeObject;
 
     public GameObject orderPrefab;
 
     public float baseSpawnRate;
-    
-    public float spawnPercentage;
 
-    [HideInInspector] public float lastSpawn;
+    public float spawnPercentage;
 }
 
-struct Order {
+struct Order
+{
     public GameObject orderObject;
     public FINISHED_RECIPES recipe;
 }
