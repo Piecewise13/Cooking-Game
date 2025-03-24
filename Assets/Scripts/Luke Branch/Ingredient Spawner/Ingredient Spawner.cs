@@ -1,13 +1,14 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class IngredientSpawner : MonoBehaviour
 {
 
-    [SerializeField] private GameObject ingredients;
+    [SerializeField] private List<GameObject> ingredients;
 
     public BoxCollider spawnBox;
 
-    public float minSpawnTime, maxSpawnTime;
+    public float minSpawnTime, maxSpawnTime, xVeloMax, yVeloMax, xVeloMin, yVeloMin;
 
     private float spawnDelay;
 
@@ -17,38 +18,52 @@ public class IngredientSpawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(spawnTimer + spawnDelay < Time.time){
+        if (spawnTimer + spawnDelay < Time.time)
+        {
             SpawnIngredient();
         }
     }
 
-    void SpawnIngredient(){
+    void SpawnIngredient()
+    {
         Vector3 spawnPosition = RandomPointInBounds(spawnBox.bounds);
 
-        GameObject ingredient = Instantiate(ingredients, spawnPosition, Quaternion.identity);
+        int randomIndex = Random.Range(0, ingredients.Count);
+
+        GameObject ingredient = Instantiate(ingredients[randomIndex], spawnPosition, Quaternion.identity);
+        ingredient.GetComponent<Rigidbody>().linearVelocity = RandomStartVelocity();
 
         spawnTimer = Time.time;
 
         spawnDelay = Random.Range(minSpawnTime, maxSpawnTime);
-        
+
     }
 
     void OnTriggerEnter(Collider other)
     {
-        Destroy(other);
+        if (other.CompareTag("Ingredient"))  // Check if the object has the tag "ingredient"
+        {
+            Destroy(other.gameObject);
+        }
     }
 
-    public static Vector3 RandomPointInBounds(Bounds bounds) {
+    Vector3 RandomStartVelocity()
+    {
+        return new Vector3(Random.Range(-xVeloMax, xVeloMax), Random.Range(yVeloMin, yVeloMax), 0);
+    }
+
+    public static Vector3 RandomPointInBounds(Bounds bounds)
+    {
         return new Vector3(
             Random.Range(bounds.min.x, bounds.max.x),
             Random.Range(bounds.min.y, bounds.max.y),
             Random.Range(bounds.min.z, bounds.max.z)
-    );
-}
+        );
+    }
 }

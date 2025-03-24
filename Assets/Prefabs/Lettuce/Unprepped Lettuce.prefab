@@ -80,6 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   preppedPrefab: {fileID: 5647803213451184313, guid: d95031fc4dbd9442c8a89d8d0f84ad87, type: 3}
+  poofParticle: {fileID: 932037456934549907, guid: 270a427ec046b4b10abe923a7f89325f, type: 3}
   health: 3
   isOnCuttingBoard: 0
 --- !u!54 &637552663590718244

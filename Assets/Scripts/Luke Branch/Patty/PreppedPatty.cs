@@ -41,4 +41,9 @@ public class PreppedPatty : PreppedIngredients, Cookable
     {
         isOnFryingPan = false;
     }
+
+    public float PercentageCooked()
+    {
+        return burnTime / timeToBurn;
+    }
 }

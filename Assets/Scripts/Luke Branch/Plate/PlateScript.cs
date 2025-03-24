@@ -13,9 +13,7 @@ public class PlateScript : MonoBehaviour
     public Transform foodModelTransform;
 
     public List<RecipeObject> recipeList;
-
-
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
         //check to see if whatever is overlapping has the lettuce script
         PreppedIngredients preppedScript = other.transform.root.GetComponent<PreppedIngredients>();

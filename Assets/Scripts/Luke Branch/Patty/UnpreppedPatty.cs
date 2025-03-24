@@ -1,5 +1,6 @@
 using UnityEngine.XR;
 using UnityEngine;
+using Unity.Mathematics;
 
 public class UnpreppedPatty : UnpreppedIngredient, Cookable
 {
@@ -7,7 +8,6 @@ public class UnpreppedPatty : UnpreppedIngredient, Cookable
     public float timeToCook;
 
     private float cookedTime;
-
 
     private bool isOnFryingPan = false;
 
@@ -38,6 +38,10 @@ public class UnpreppedPatty : UnpreppedIngredient, Cookable
         isOnFryingPan = false;
     }
 
+    public float PercentageCooked()
+    {
+        return cookedTime / (timeToCook);
+    }
 }
 
 

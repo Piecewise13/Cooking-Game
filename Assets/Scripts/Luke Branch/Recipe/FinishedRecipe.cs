@@ -4,7 +4,7 @@ public class FinishedRecipe : MonoBehaviour
 {
 
     public FINISHED_RECIPES recipe;
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,6 +16,7 @@ public class FinishedRecipe : MonoBehaviour
     {
         
     }
+
 }
 
 public enum FINISHED_RECIPES{

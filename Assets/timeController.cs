@@ -42,6 +42,9 @@ public class TimeController : MonoBehaviour
     [SerializeField]
     private float maxMoonLightIntensity;
 
+    [SerializeField] private ParticleSystem stars;
+
+
     private DateTime currentTime;
 
     private TimeSpan sunriseTime;
@@ -104,10 +107,36 @@ public class TimeController : MonoBehaviour
     private void UpdateLightSettings()
     {
         float dotProduct = Vector3.Dot(sunLight.transform.forward, Vector3.down);
-        sunLight.intensity = Mathf.Lerp(0, maxSunLightIntensity, lightChangeCurve.Evaluate(dotProduct));
-        moonLight.intensity = Mathf.Lerp(maxMoonLightIntensity, 0, lightChangeCurve.Evaluate(dotProduct));
-        RenderSettings.ambientLight = Color.Lerp(nightAmbientLight, dayAmbientLight, lightChangeCurve.Evaluate(dotProduct));
+        float lightFactor = lightChangeCurve.Evaluate(dotProduct);
+
+        sunLight.intensity = Mathf.Lerp(0, maxSunLightIntensity, lightFactor);
+        moonLight.intensity = Mathf.Lerp(maxMoonLightIntensity, 0, lightFactor);
+        RenderSettings.ambientLight = Color.Lerp(nightAmbientLight, dayAmbientLight, lightFactor * lightFactor);
+
+        // Adjust skybox exposure
+        if (RenderSettings.skybox != null)
+        {
+            RenderSettings.skybox.SetFloat("_Exposure", Mathf.Lerp(0.2f, 1.0f, lightFactor));
+        }
+
+        // Control stars visibility
+        if (stars != null)
+        {
+            var emission = stars.emission;
+            emission.rateOverTime = Mathf.Lerp(1000, 0, lightFactor); // More stars at night
+
+            // Activate or deactivate stars dynamically
+            if (lightFactor < 0.5f)  // Consider night when below 0.3
+            {
+                if (!stars.isPlaying) stars.Play();
+            }
+            else
+            {
+                if (stars.isPlaying) stars.Stop();
+            }
+        }
     }
+
 
     private TimeSpan CalculateTimeDifference(TimeSpan fromTime, TimeSpan toTime)
     {
